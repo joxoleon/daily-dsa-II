@@ -1,0 +1,76 @@
+{
+  "arrays_and_strings": [
+    {
+      "id": "two_pointers_palindrome",
+      "name": "Two Pointers — Palindrome Check",
+      "category": "arrays",
+      "topic": "two_pointers",
+      "weight": 9,
+      "description": "Return True if nums is a palindrome using inward two pointers.",
+      "signature": "def is_palindrome(nums: List[int]) -> bool:"
+    },
+    {
+      "id": "two_pointers_reverse_array",
+      "name": "Two Pointers — Reverse Array In-Place",
+      "category": "arrays",
+      "topic": "two_pointers",
+      "weight": 8,
+      "description": "Reverse the array in place using outward two-pointer swapping.",
+      "signature": "def reverse_array(nums: List[int]) -> List[int]:"
+    },
+    {
+      "id": "two_pointers_sorted_two_sum",
+      "name": "Two Pointers — Two Sum in Sorted Array",
+      "category": "arrays",
+      "topic": "two_pointers",
+      "weight": 10,
+      "description": "Given a sorted array and a target, return True if any pair sums to the target using two pointers.",
+      "signature": "def two_sum_sorted(nums: List[int], target: int) -> bool:"
+    },
+    {
+      "id": "array_remove_duplicates_sorted",
+      "name": "Remove Duplicates from Sorted Array (Count Unique)",
+      "category": "arrays",
+      "topic": "in_place",
+      "weight": 9,
+      "description": "Count unique elements in a sorted array using a write pointer. Return the count of unique values.",
+      "signature": "def count_unique(nums: List[int]) -> int:"
+    },
+    {
+      "id": "array_rotate_k_steps",
+      "name": "Rotate Array by K Steps",
+      "category": "arrays",
+      "topic": "rotation",
+      "weight": 7,
+      "description": "Rotate the array to the right by k steps using reverse operations.",
+      "signature": "def rotate(nums: List[int], k: int) -> List[int]:"
+    },
+    {
+      "id": "string_anagram_check",
+      "name": "Check if Two Strings Are Anagrams",
+      "category": "strings",
+      "topic": "hashing",
+      "weight": 10,
+      "description": "Check whether two strings are anagrams using frequency counting.",
+      "signature": "def is_anagram(s: str, t: str) -> bool:"
+    },
+    {
+      "id": "string_compress_run_length",
+      "name": "Simple Run-Length Encoding",
+      "category": "strings",
+      "topic": "compression",
+      "weight": 6,
+      "description": "Perform basic run-length encoding (e.g. 'aaabb' → 'a3b2').",
+      "signature": "def rle_compress(s: str) -> str:"
+    },
+    {
+      "id": "string_longest_word",
+      "name": "Find the Longest Word in a Sentence",
+      "category": "strings",
+      "topic": "scanning",
+      "weight": 5,
+      "description": "Return the longest word in the sentence, splitting on whitespace.",
+      "signature": "def longest_word(sentence: str) -> str:"
+    }
+  ]
+}
