@@ -1,0 +1,58 @@
+{
+  "union_find": [
+    {
+      "id": "dsu_basic_structure",
+      "name": "Union-Find — Basic Structure",
+      "category": "union_find",
+      "topic": "dsu_core",
+      "weight": 10,
+      "description": "Implement a basic disjoint set union (Union-Find) structure with parent initialization and the ability to find the root of any element.",
+      "signature": "class UnionFind:\n    def __init__(self, n: int):\n        pass\n    def find(self, x: int) -> int:\n        pass"
+    },
+    {
+      "id": "dsu_union_by_rank",
+      "name": "Union-Find — Union by Rank",
+      "category": "union_find",
+      "topic": "dsu_optimization",
+      "weight": 10,
+      "description": "Extend a Union-Find structure to support union by rank/size to reduce tree height during merges. Return True if a merge happened, False if already in same set.",
+      "signature": "class UnionFind:\n    def __init__(self, n: int):\n        pass\n    def find(self, x: int) -> int:\n        pass\n    def union(self, x: int, y: int) -> bool:\n        pass"
+    },
+    {
+      "id": "dsu_path_compression",
+      "name": "Union-Find — Path Compression",
+      "category": "union_find",
+      "topic": "dsu_optimization",
+      "weight": 10,
+      "description": "Implement path compression in the find operation so that each node on the path directly points to its root, optimizing repeated find operations.",
+      "signature": "class UnionFind:\n    def __init__(self, n: int):\n        pass\n    def find(self, x: int) -> int:\n        pass\n    def union(self, x: int, y: int) -> None:\n        pass"
+    },
+    {
+      "id": "dsu_count_components",
+      "name": "Union-Find — Count Connected Components",
+      "category": "union_find",
+      "topic": "components",
+      "weight": 9,
+      "description": "Given n nodes labeled 0..n-1 and a list of undirected edges, use Union-Find to compute the number of connected components after processing all edges.",
+      "signature": "def count_components(n: int, edges: List[List[int]]) -> int:"
+    },
+    {
+      "id": "dsu_cycle_detection",
+      "name": "Union-Find — Cycle Detection in Undirected Graph",
+      "category": "union_find",
+      "topic": "cycle_detection",
+      "weight": 8,
+      "description": "Given an undirected graph, determine whether a cycle exists by joining endpoints of each edge using Union-Find. If two endpoints share a root before union, a cycle exists.",
+      "signature": "def has_cycle(n: int, edges: List[List[int]]) -> bool:"
+    },
+    {
+      "id": "dsu_number_of_islands",
+      "name": "Union-Find — Number of Islands (Grid DSU)",
+      "category": "union_find",
+      "topic": "grid_dsu",
+      "weight": 8,
+      "description": "Given a 2D grid of '0' and '1', treat each land cell as a node and union adjacent land cells to determine the number of islands using DSU.",
+      "signature": "def num_islands(grid: List[List[str]]) -> int:"
+    }
+  ]
+}

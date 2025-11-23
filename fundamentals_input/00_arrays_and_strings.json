@@ -5,8 +5,8 @@
       "name": "Two Pointers — Palindrome Check",
       "category": "arrays",
       "topic": "two_pointers",
-      "weight": 9,
-      "description": "Return True if nums is a palindrome using inward two pointers.",
+      "weight": 6,
+      "description": "Determine whether a list of integers forms a palindrome using inward-moving two pointers. Return True if the list reads the same forward and backward, otherwise False.",
       "signature": "def is_palindrome(nums: List[int]) -> bool:"
     },
     {
@@ -14,8 +14,8 @@
       "name": "Two Pointers — Reverse Array In-Place",
       "category": "arrays",
       "topic": "two_pointers",
-      "weight": 8,
-      "description": "Reverse the array in place using outward two-pointer swapping.",
+      "weight": 5,
+      "description": "Reverse the elements of the array in-place using outward-moving two pointers that swap values from both ends toward the center. Return the modified array.",
       "signature": "def reverse_array(nums: List[int]) -> List[int]:"
     },
     {
@@ -24,16 +24,16 @@
       "category": "arrays",
       "topic": "two_pointers",
       "weight": 10,
-      "description": "Given a sorted array and a target, return True if any pair sums to the target using two pointers.",
+      "description": "Given a sorted list of integers and a target, use two pointers to determine whether any pair sums to the target. Return True if such a pair exists, otherwise False.",
       "signature": "def two_sum_sorted(nums: List[int], target: int) -> bool:"
     },
     {
       "id": "array_remove_duplicates_sorted",
-      "name": "Remove Duplicates from Sorted Array (Count Unique)",
+      "name": "Remove Duplicates from Sorted Array — Count Unique",
       "category": "arrays",
       "topic": "in_place",
-      "weight": 9,
-      "description": "Count unique elements in a sorted array using a write pointer. Return the count of unique values.",
+      "weight": 7,
+      "description": "Given a sorted array, count how many unique values it contains using a write-pointer technique. Do not create a new array. Return the count of unique values.",
       "signature": "def count_unique(nums: List[int]) -> int:"
     },
     {
@@ -41,8 +41,8 @@
       "name": "Rotate Array by K Steps",
       "category": "arrays",
       "topic": "rotation",
-      "weight": 7,
-      "description": "Rotate the array to the right by k steps using reverse operations.",
+      "weight": 5,
+      "description": "Rotate the array to the right by k steps using a sequence of reverse operations. Return the rotated array.",
       "signature": "def rotate(nums: List[int], k: int) -> List[int]:"
     },
     {
@@ -51,7 +51,7 @@
       "category": "strings",
       "topic": "hashing",
       "weight": 10,
-      "description": "Check whether two strings are anagrams using frequency counting.",
+      "description": "Given two strings, determine whether they are anagrams by comparing character frequencies. Return True if both strings contain the same characters with the same frequencies.",
       "signature": "def is_anagram(s: str, t: str) -> bool:"
     },
     {
@@ -59,8 +59,8 @@
       "name": "Simple Run-Length Encoding",
       "category": "strings",
       "topic": "compression",
-      "weight": 6,
-      "description": "Perform basic run-length encoding (e.g. 'aaabb' → 'a3b2').",
+      "weight": 4,
+      "description": "Perform simple run-length encoding on the input string by compressing consecutive repeated characters into character-count pairs. Return the compressed string.",
       "signature": "def rle_compress(s: str) -> str:"
     },
     {
@@ -68,8 +68,8 @@
       "name": "Find the Longest Word in a Sentence",
       "category": "strings",
       "topic": "scanning",
-      "weight": 5,
-      "description": "Return the longest word in the sentence, splitting on whitespace.",
+      "weight": 3,
+      "description": "Given a sentence, return the longest word by splitting on whitespace. If multiple words share the maximum length, return the first one encountered.",
       "signature": "def longest_word(sentence: str) -> str:"
     }
   ]

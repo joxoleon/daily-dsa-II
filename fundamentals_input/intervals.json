@@ -1,0 +1,67 @@
+{
+  "intervals": [
+    {
+      "id": "interval_merge",
+      "name": "Merge Overlapping Intervals",
+      "category": "intervals",
+      "topic": "merge_intervals",
+      "weight": 10,
+      "description": "Given a list of intervals, merge all overlapping intervals and return the condensed list sorted by start times.",
+      "signature": "def merge(intervals: List[List[int]]) -> List[List[int]]:"
+    },
+    {
+      "id": "interval_insert",
+      "name": "Insert Interval Into Sorted List",
+      "category": "intervals",
+      "topic": "insert_interval",
+      "weight": 9,
+      "description": "Insert a new interval into an existing sorted list of non-overlapping intervals, merging as necessary. Return the updated list.",
+      "signature": "def insert(intervals: List[List[int]], new: List[int]) -> List[List[int]]:"
+    },
+    {
+      "id": "interval_meeting_rooms",
+      "name": "Meeting Rooms — Can Attend All",
+      "category": "intervals",
+      "topic": "overlap_check",
+      "weight": 8,
+      "description": "Given meeting intervals, determine if a person can attend all meetings by checking for overlap after sorting by start times.",
+      "signature": "def can_attend_meetings(intervals: List[List[int]]) -> bool:"
+    },
+    {
+      "id": "interval_meeting_rooms_ii",
+      "name": "Meeting Rooms II — Minimum Rooms Required",
+      "category": "intervals",
+      "topic": "min_rooms",
+      "weight": 10,
+      "description": "Given meeting intervals, return the minimum number of conference rooms required using a min-heap of end times.",
+      "signature": "def min_meeting_rooms(intervals: List[List[int]]) -> int:"
+    },
+    {
+      "id": "interval_non_overlapping",
+      "name": "Erase Overlapping Intervals",
+      "category": "intervals",
+      "topic": "erase_overlap",
+      "weight": 9,
+      "description": "Return the minimum number of intervals to remove so the rest are non-overlapping by sorting and applying greedy selection.",
+      "signature": "def erase_overlap_intervals(intervals: List[List[int]]) -> int:"
+    },
+    {
+      "id": "interval_arrow_balloons",
+      "name": "Minimum Arrows to Burst Balloons",
+      "category": "intervals",
+      "topic": "overlap_greedy",
+      "weight": 9,
+      "description": "Given intervals representing balloon ranges, return the minimum number of arrows needed to burst all balloons using greedy overlap logic.",
+      "signature": "def find_min_arrow_shots(points: List[List[int]]) -> int:"
+    },
+    {
+      "id": "interval_merge_sorted_lists",
+      "name": "Merge Two Sorted Interval Lists",
+      "category": "intervals",
+      "topic": "merge_two_lists",
+      "weight": 6,
+      "description": "Merge two sorted interval lists into one sorted result while preserving interval structure. No merging of overlaps required.",
+      "signature": "def merge_two_interval_lists(a: List[List[int]], b: List[List[int]]) -> List[List[int]]:"
+    }
+  ]
+}

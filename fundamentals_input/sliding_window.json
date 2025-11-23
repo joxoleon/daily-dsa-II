@@ -1,0 +1,58 @@
+{
+  "sliding_window": [
+    {
+      "id": "sw_fixed_size_max_sum",
+      "name": "Sliding Window — Max Sum of Fixed Window",
+      "category": "arrays",
+      "topic": "sliding_window_fixed",
+      "weight": 5,
+      "description": "Given an array and an integer k, compute the maximum sum of any contiguous subarray of size k.",
+      "signature": "def max_sum_fixed(nums: List[int], k: int) -> int:"
+    },
+    {
+      "id": "sw_min_subarray_len",
+      "name": "Sliding Window — Minimum Subarray Length",
+      "category": "arrays",
+      "topic": "sliding_window_variable",
+      "weight": 8,
+      "description": "Given a target and an array of positive integers, return the minimum window length whose sum is >= target, or 0 if none exists.",
+      "signature": "def min_subarray_len(target: int, nums: List[int]) -> int:"
+    },
+    {
+      "id": "sw_longest_no_repeat",
+      "name": "Sliding Window — Longest Substring Without Repeating Characters",
+      "category": "strings",
+      "topic": "sliding_window_hash",
+      "weight": 10,
+      "description": "Return the length of the longest substring without repeating characters.",
+      "signature": "def length_of_longest_substring(s: str) -> int:"
+    },
+    {
+      "id": "sw_longest_k_distinct",
+      "name": "Sliding Window — Longest Substring with K Distinct",
+      "category": "strings",
+      "topic": "sliding_window_k_distinct",
+      "weight": 9,
+      "description": "Given a string s and integer k, return the length of the longest substring containing at most k distinct characters.",
+      "signature": "def length_of_longest_k_distinct(s: str, k: int) -> int:"
+    },
+    {
+      "id": "sw_fruit_into_baskets",
+      "name": "Sliding Window — Fruit into Baskets",
+      "category": "arrays",
+      "topic": "sliding_window_k_distinct",
+      "weight": 7,
+      "description": "Given an array representing fruit types, find the longest subarray with at most 2 distinct values.",
+      "signature": "def total_fruit(nums: List[int]) -> int:"
+    },
+    {
+      "id": "sw_longest_ones_with_flips",
+      "name": "Sliding Window — Longest Ones After Flips",
+      "category": "arrays",
+      "topic": "sliding_window_zero_flips",
+      "weight": 8,
+      "description": "Return the longest subarray of 1s after flipping at most k zeros.",
+      "signature": "def longest_ones(nums: List[int], k: int) -> int:"
+    }
+  ]
+}
