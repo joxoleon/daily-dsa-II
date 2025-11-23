@@ -2,61 +2,61 @@
   "binary_search": [
     {
       "id": "bs_classic",
-      "name": "Binary Search — Classic Index Search",
+      "name": "Binary Search \u2014 Classic Index Search",
       "category": "arrays",
       "topic": "binary_search",
-      "weight": 10,
+      "weight": 8,
       "description": "Given a sorted list of integers and a target, return the index where the target exists or -1 if not found. Implement the classical binary search algorithm.",
       "signature": "def binary_search(nums: List[int], target: int) -> int:"
     },
     {
       "id": "bs_leftmost",
-      "name": "Binary Search — Leftmost Occurrence",
+      "name": "Binary Search \u2014 Leftmost Occurrence",
       "category": "arrays",
       "topic": "binary_search_boundaries",
-      "weight": 9,
+      "weight": 7,
       "description": "Given a sorted array, return the leftmost index of a target value using modified binary search, or -1 if the target is not present.",
       "signature": "def search_left(nums: List[int], target: int) -> int:"
     },
     {
       "id": "bs_rightmost",
-      "name": "Binary Search — Rightmost Occurrence",
+      "name": "Binary Search \u2014 Rightmost Occurrence",
       "category": "arrays",
       "topic": "binary_search_boundaries",
-      "weight": 9,
+      "weight": 7,
       "description": "Given a sorted array, return the rightmost index of a target value using modified binary search, or -1 if the target is not present.",
       "signature": "def search_right(nums: List[int], target: int) -> int:"
     },
     {
       "id": "bs_rotated_search",
-      "name": "Binary Search — Search in Rotated Sorted Array",
+      "name": "Binary Search \u2014 Search in Rotated Sorted Array",
       "category": "arrays",
       "topic": "binary_search_rotated",
-      "weight": 10,
+      "weight": 9,
       "description": "Given a rotated sorted array and a target, return its index by determining which half is sorted at each step. Return -1 if the target does not exist.",
       "signature": "def search_rotated(nums: List[int], target: int) -> int:"
     },
     {
       "id": "bs_find_min_rotated",
-      "name": "Binary Search — Find Minimum in Rotated Sorted Array",
+      "name": "Binary Search \u2014 Find Minimum in Rotated Sorted Array",
       "category": "arrays",
       "topic": "binary_search_rotated",
-      "weight": 9,
+      "weight": 8,
       "description": "Given a rotated sorted array without duplicates, return the minimum element using binary search logic.",
       "signature": "def find_min_rotated(nums: List[int]) -> int:"
     },
     {
       "id": "bs_search_insert",
-      "name": "Binary Search — Search Insert Position",
+      "name": "Binary Search \u2014 Search Insert Position",
       "category": "arrays",
       "topic": "binary_search_insert",
-      "weight": 8,
+      "weight": 6,
       "description": "Given a sorted array and a target, return the index where the target should be inserted to maintain sorted order.",
       "signature": "def search_insert(nums: List[int], target: int) -> int:"
     },
     {
       "id": "bs_peak_element",
-      "name": "Binary Search — Find Peak Element",
+      "name": "Binary Search \u2014 Find Peak Element",
       "category": "arrays",
       "topic": "binary_search_mountain",
       "weight": 7,
@@ -65,10 +65,10 @@
     },
     {
       "id": "bs_binary_search_answer",
-      "name": "Binary Search — Binary Search on Answer",
+      "name": "Binary Search \u2014 Binary Search on Answer",
       "category": "advanced",
       "topic": "binary_search_answer_space",
-      "weight": 10,
+      "weight": 5,
       "description": "Given a predicate and a search space, find the minimal value for which the predicate holds. Core technique behind problems like capacity-to-ship and Koko eating bananas.",
       "signature": "def binary_search_answer(lo: int, hi: int, predicate) -> int:"
     }

@@ -2,64 +2,64 @@
   "prefix_and_hash": [
     {
       "id": "prefix_running_sum",
-      "name": "Prefix Sum — Running Sum Array",
+      "name": "Prefix Sum \u2014 Running Sum Array",
       "category": "arrays",
       "topic": "prefix_sum_basic",
-      "weight": 4,
+      "weight": 3,
       "description": "Given an array of integers, return an array where each element i is the sum of nums[0..i].",
       "signature": "def running_sum(nums: List[int]) -> List[int]:"
     },
     {
       "id": "prefix_subarray_sum_k",
-      "name": "Prefix Sum — Subarray Sum Equals K",
+      "name": "Prefix Sum \u2014 Subarray Sum Equals K",
       "category": "arrays",
       "topic": "prefix_sum_hashmap",
-      "weight": 10,
+      "weight": 7,
       "description": "Return the number of contiguous subarrays whose sum equals k using prefix sums and hashmap frequency counting.",
       "signature": "def subarray_sum(nums: List[int], k: int) -> int:"
     },
     {
       "id": "prefix_longest_subarray_k",
-      "name": "Prefix Sum — Longest Subarray with Sum K",
+      "name": "Prefix Sum \u2014 Longest Subarray with Sum K",
       "category": "arrays",
       "topic": "prefix_sum_hashmap",
-      "weight": 9,
+      "weight": 6,
       "description": "Return the length of the longest contiguous subarray with sum equal to k using a prefix sum index map.",
       "signature": "def longest_subarray_sum_k(nums: List[int], k: int) -> int:"
     },
     {
       "id": "prefix_even_odd_counts",
-      "name": "Prefix Sum — Count Subarrays with Even/Odd Sum",
+      "name": "Prefix Sum \u2014 Count Subarrays with Even/Odd Sum",
       "category": "arrays",
       "topic": "prefix_sum_parity",
-      "weight": 7,
+      "weight": 4,
       "description": "Count the number of subarrays whose sum is even by tracking prefix sum parity using a hashmap.",
       "signature": "def count_even_sum_subarrays(nums: List[int]) -> int:"
     },
     {
       "id": "prefix_binary_subarray_equal_0_1",
-      "name": "Prefix Sum — Longest Binary Subarray with Equal 0s and 1s",
+      "name": "Prefix Sum \u2014 Longest Binary Subarray with Equal 0s and 1s",
       "category": "arrays",
       "topic": "prefix_sum_hashmap",
-      "weight": 9,
-      "description": "Given a binary array, return the length of the longest contiguous subarray with equal number of 0s and 1s by converting 0→-1 and using prefix sums.",
+      "weight": 8,
+      "description": "Given a binary array, return the length of the longest contiguous subarray with equal number of 0s and 1s by converting 0\u2192-1 and using prefix sums.",
       "signature": "def find_max_length(nums: List[int]) -> int:"
     },
     {
       "id": "prefix_difference_array_update",
-      "name": "Difference Array — Efficient Range Updates",
+      "name": "Difference Array \u2014 Efficient Range Updates",
       "category": "arrays",
       "topic": "difference_array",
-      "weight": 6,
+      "weight": 5,
       "description": "Apply multiple range increment operations efficiently using a difference array and reconstruct the final result using prefix sum reconstruction.",
       "signature": "def apply_range_updates(n: int, updates: List[List[int]]) -> List[int]:"
     },
     {
       "id": "hashmap_frequency_basic",
-      "name": "Hash Map — Character Frequency Counter",
+      "name": "Hash Map \u2014 Character Frequency Counter",
       "category": "strings",
       "topic": "hashmap_frequency",
-      "weight": 5,
+      "weight": 3,
       "description": "Given a string, return a frequency map counting all characters. Often used as a helper in anagram, window, and grouping problems.",
       "signature": "def char_frequency(s: str) -> Dict[str, int]:"
     }

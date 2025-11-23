@@ -2,37 +2,37 @@
   "stacks_and_queues": [
     {
       "id": "stack_valid_parentheses",
-      "name": "Stack — Valid Parentheses",
+      "name": "Stack \u2014 Valid Parentheses",
       "category": "stacks",
       "topic": "basic_stack",
-      "weight": 10,
+      "weight": 7,
       "description": "Given a string containing only parentheses characters '(){}[]', determine whether the sequence is valid using a stack. A valid sequence has matching types and correct ordering.",
       "signature": "def is_valid_parentheses(s: str) -> bool:"
     },
     {
       "id": "stack_min_stack",
-      "name": "Stack — Min Stack (O(1) Min Retrieval)",
+      "name": "Stack \u2014 Min Stack (O(1) Min Retrieval)",
       "category": "stacks",
       "topic": "design",
-      "weight": 9,
+      "weight": 6,
       "description": "Design a stack supporting push, pop, top, and retrieving the minimum element in constant time. Implement the MinStack class with these operations.",
       "signature": "class MinStack:\n    def __init__(self):\n        pass\n    def push(self, val: int) -> None:\n        pass\n    def pop(self) -> None:\n        pass\n    def top(self) -> int:\n        pass\n    def getMin(self) -> int:\n        pass"
     },
     {
       "id": "stack_monotonic_next_greater",
-      "name": "Monotonic Stack — Next Greater Element",
+      "name": "Monotonic Stack \u2014 Next Greater Element",
       "category": "stacks",
       "topic": "monotonic_stack",
-      "weight": 9,
+      "weight": 8,
       "description": "Given a list of integers, return a list where each element is replaced by the next greater element to its right, or -1 if none exists. Solve using a decreasing monotonic stack.",
       "signature": "def next_greater(nums: List[int]) -> List[int]:"
     },
     {
       "id": "stack_monotonic_histogram",
-      "name": "Monotonic Stack — Largest Rectangle in Histogram",
+      "name": "Monotonic Stack \u2014 Largest Rectangle in Histogram",
       "category": "stacks",
       "topic": "monotonic_stack",
-      "weight": 8,
+      "weight": 9,
       "description": "Given a list of bar heights representing a histogram, compute the area of the largest rectangle that can be formed. Use a monotonic increasing stack to track expanding intervals.",
       "signature": "def largest_rectangle(heights: List[int]) -> int:"
     },
@@ -41,16 +41,16 @@
       "name": "Queue Implemented Using Two Stacks",
       "category": "queues",
       "topic": "design",
-      "weight": 8,
+      "weight": 5,
       "description": "Implement a queue using two stacks. Support push (to back), pop, peek, and empty operations. Maintain amortized constant time performance.",
       "signature": "class MyQueue:\n    def __init__(self):\n        pass\n    def push(self, x: int) -> None:\n        pass\n    def pop(self) -> int:\n        pass\n    def peek(self) -> int:\n        pass\n    def empty(self) -> bool:\n        pass"
     },
     {
       "id": "deque_sliding_window_max",
-      "name": "Deque — Sliding Window Maximum",
+      "name": "Deque \u2014 Sliding Window Maximum",
       "category": "queues",
       "topic": "deque",
-      "weight": 10,
+      "weight": 8,
       "description": "Given an array of integers and a window size k, return an array of the maximum values in each sliding window. Use a deque to maintain indices in decreasing order of values.",
       "signature": "def sliding_window_max(nums: List[int], k: int) -> List[int]:"
     }

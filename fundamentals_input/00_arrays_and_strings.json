@@ -2,34 +2,34 @@
   "arrays_and_strings": [
     {
       "id": "two_pointers_palindrome",
-      "name": "Two Pointers — Palindrome Check",
+      "name": "Two Pointers \u2014 Palindrome Check",
       "category": "arrays",
       "topic": "two_pointers",
-      "weight": 6,
+      "weight": 8,
       "description": "Determine whether a list of integers forms a palindrome using inward-moving two pointers. Return True if the list reads the same forward and backward, otherwise False.",
       "signature": "def is_palindrome(nums: List[int]) -> bool:"
     },
     {
       "id": "two_pointers_reverse_array",
-      "name": "Two Pointers — Reverse Array In-Place",
+      "name": "Two Pointers \u2014 Reverse Array In-Place",
       "category": "arrays",
       "topic": "two_pointers",
-      "weight": 5,
+      "weight": 6,
       "description": "Reverse the elements of the array in-place using outward-moving two pointers that swap values from both ends toward the center. Return the modified array.",
       "signature": "def reverse_array(nums: List[int]) -> List[int]:"
     },
     {
       "id": "two_pointers_sorted_two_sum",
-      "name": "Two Pointers — Two Sum in Sorted Array",
+      "name": "Two Pointers \u2014 Two Sum in Sorted Array",
       "category": "arrays",
       "topic": "two_pointers",
-      "weight": 10,
+      "weight": 9,
       "description": "Given a sorted list of integers and a target, use two pointers to determine whether any pair sums to the target. Return True if such a pair exists, otherwise False.",
       "signature": "def two_sum_sorted(nums: List[int], target: int) -> bool:"
     },
     {
       "id": "array_remove_duplicates_sorted",
-      "name": "Remove Duplicates from Sorted Array — Count Unique",
+      "name": "Remove Duplicates from Sorted Array \u2014 Count Unique",
       "category": "arrays",
       "topic": "in_place",
       "weight": 7,
@@ -41,7 +41,7 @@
       "name": "Rotate Array by K Steps",
       "category": "arrays",
       "topic": "rotation",
-      "weight": 5,
+      "weight": 7,
       "description": "Rotate the array to the right by k steps using a sequence of reverse operations. Return the rotated array.",
       "signature": "def rotate(nums: List[int], k: int) -> List[int]:"
     },
@@ -50,7 +50,7 @@
       "name": "Check if Two Strings Are Anagrams",
       "category": "strings",
       "topic": "hashing",
-      "weight": 10,
+      "weight": 6,
       "description": "Given two strings, determine whether they are anagrams by comparing character frequencies. Return True if both strings contain the same characters with the same frequencies.",
       "signature": "def is_anagram(s: str, t: str) -> bool:"
     },
@@ -59,7 +59,7 @@
       "name": "Simple Run-Length Encoding",
       "category": "strings",
       "topic": "compression",
-      "weight": 4,
+      "weight": 5,
       "description": "Perform simple run-length encoding on the input string by compressing consecutive repeated characters into character-count pairs. Return the compressed string.",
       "signature": "def rle_compress(s: str) -> str:"
     },
@@ -68,7 +68,7 @@
       "name": "Find the Longest Word in a Sentence",
       "category": "strings",
       "topic": "scanning",
-      "weight": 3,
+      "weight": 4,
       "description": "Given a sentence, return the longest word by splitting on whitespace. If multiple words share the maximum length, return the first one encountered.",
       "signature": "def longest_word(sentence: str) -> str:"
     }

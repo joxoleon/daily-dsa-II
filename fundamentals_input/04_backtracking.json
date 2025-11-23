@@ -2,52 +2,52 @@
   "backtracking": [
     {
       "id": "bt_subsets",
-      "name": "Backtracking — Generate Subsets",
+      "name": "Backtracking \u2014 Generate Subsets",
       "category": "backtracking",
       "topic": "subsets",
-      "weight": 10,
+      "weight": 7,
       "description": "Generate all possible subsets of a list of integers using backtracking. Return a list of all subsets in any order.",
       "signature": "def subsets(nums: List[int]) -> List[List[int]]:"
     },
     {
       "id": "bt_subsets_with_duplicates",
-      "name": "Backtracking — Subsets With Duplicates",
+      "name": "Backtracking \u2014 Subsets With Duplicates",
       "category": "backtracking",
       "topic": "subsets",
-      "weight": 9,
+      "weight": 8,
       "description": "Generate all unique subsets from a list of integers that may contain duplicates. Avoid generating duplicate subset combinations.",
       "signature": "def subsets_with_dup(nums: List[int]) -> List[List[int]]:"
     },
     {
       "id": "bt_permutations",
-      "name": "Backtracking — Permutations",
+      "name": "Backtracking \u2014 Permutations",
       "category": "backtracking",
       "topic": "permutations",
-      "weight": 10,
+      "weight": 7,
       "description": "Generate all permutations of a list of integers using backtracking. Return a list of all possible reorderings.",
       "signature": "def permutations(nums: List[int]) -> List[List[int]]:"
     },
     {
       "id": "bt_combinations",
-      "name": "Backtracking — Combinations",
+      "name": "Backtracking \u2014 Combinations",
       "category": "backtracking",
       "topic": "combinations",
-      "weight": 9,
+      "weight": 6,
       "description": "Generate all size-k combinations from the numbers 1 through n using backtracking. Return a list of all valid combinations.",
       "signature": "def combinations(n: int, k: int) -> List[List[int]]:"
     },
     {
       "id": "bt_combination_sum",
-      "name": "Backtracking — Combination Sum",
+      "name": "Backtracking \u2014 Combination Sum",
       "category": "backtracking",
       "topic": "combination_sum",
-      "weight": 10,
+      "weight": 8,
       "description": "Given a list of positive integers and a target sum, return all unique combinations where the chosen numbers sum to the target. Numbers may be reused.",
       "signature": "def combination_sum(candidates: List[int], target: int) -> List[List[int]]:"
     },
     {
       "id": "bt_combination_sum_ii",
-      "name": "Backtracking — Combination Sum II",
+      "name": "Backtracking \u2014 Combination Sum II",
       "category": "backtracking",
       "topic": "combination_sum",
       "weight": 9,

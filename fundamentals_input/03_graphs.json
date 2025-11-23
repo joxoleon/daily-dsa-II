@@ -2,82 +2,82 @@
   "graphs": [
     {
       "id": "graph_bfs_adjlist",
-      "name": "Graph BFS — Adjacency List",
+      "name": "Graph BFS \u2014 Adjacency List",
       "category": "graphs",
       "topic": "bfs",
-      "weight": 10,
+      "weight": 7,
       "description": "Perform a breadth-first search on a graph represented by an adjacency list, starting from a given node. Return the order in which nodes are visited.",
       "signature": "def bfs(graph: Dict[int, List[int]], start: int) -> List[int]:"
     },
     {
       "id": "graph_dfs_adjlist",
-      "name": "Graph DFS — Adjacency List",
+      "name": "Graph DFS \u2014 Adjacency List",
       "category": "graphs",
       "topic": "dfs",
-      "weight": 10,
+      "weight": 7,
       "description": "Perform a depth-first search on a graph represented by an adjacency list, starting from a given node. Return the order in which nodes are visited.",
       "signature": "def dfs(graph: Dict[int, List[int]], start: int) -> List[int]:"
     },
     {
       "id": "graph_dfs_grid",
-      "name": "Grid DFS — Count Islands",
+      "name": "Grid DFS \u2014 Count Islands",
       "category": "graphs",
       "topic": "grid_dfs",
-      "weight": 9,
+      "weight": 6,
       "description": "Given a 2D grid of 0s and 1s, compute the number of connected components of 1s using DFS. Connections are allowed only up, down, left, and right.",
       "signature": "def count_islands(grid: List[List[int]]) -> int:"
     },
     {
       "id": "graph_topological_sort_kahn",
-      "name": "Topological Sort — Kahn's Algorithm",
+      "name": "Topological Sort \u2014 Kahn's Algorithm",
       "category": "graphs",
       "topic": "toposort",
-      "weight": 9,
-      "description": "Given a directed acyclic graph, return a valid topological ordering of its nodes using Kahn’s algorithm based on indegree and BFS.",
+      "weight": 8,
+      "description": "Given a directed acyclic graph, return a valid topological ordering of its nodes using Kahn\u2019s algorithm based on indegree and BFS.",
       "signature": "def topological_sort(num_nodes: int, edges: List[List[int]]) -> List[int]:"
     },
     {
       "id": "graph_cycle_detection_directed",
-      "name": "Cycle Detection — Directed Graph",
+      "name": "Cycle Detection \u2014 Directed Graph",
       "category": "graphs",
       "topic": "cycle_detection",
-      "weight": 9,
+      "weight": 8,
       "description": "Given a directed graph, detect whether it contains a cycle using DFS with a recursion-stack or color-marking method. Return True if a cycle exists.",
       "signature": "def has_cycle_directed(num_nodes: int, edges: List[List[int]]) -> bool:"
     },
     {
       "id": "graph_cycle_detection_undirected",
-      "name": "Cycle Detection — Undirected Graph",
+      "name": "Cycle Detection \u2014 Undirected Graph",
       "category": "graphs",
       "topic": "cycle_detection",
-      "weight": 8,
+      "weight": 7,
       "description": "Detect whether an undirected graph contains a cycle by running DFS and tracking the parent of each visited node. Return True if a cycle is found.",
       "signature": "def has_cycle_undirected(num_nodes: int, edges: List[List[int]]) -> bool:"
     },
     {
       "id": "graph_connected_components",
-      "name": "Connected Components — DFS Count",
+      "name": "Connected Components \u2014 DFS Count",
       "category": "graphs",
       "topic": "components",
-      "weight": 9,
+      "weight": 7,
       "description": "Given a graph, count how many connected components it contains using DFS or BFS. Nodes may be labeled 0 through n-1.",
       "signature": "def count_components(num_nodes: int, edges: List[List[int]]) -> int:"
     },
     {
       "id": "graph_dijkstra",
-      "name": "Dijkstra — Shortest Path",
+      "name": "Dijkstra \u2014 Shortest Path",
       "category": "graphs",
       "topic": "dijkstra",
-      "weight": 8,
-      "description": "Given a weighted directed graph and a source node, compute the shortest path distance to all nodes using Dijkstra’s algorithm with a priority queue.",
+      "weight": 9,
+      "description": "Given a weighted directed graph and a source node, compute the shortest path distance to all nodes using Dijkstra\u2019s algorithm with a priority queue.",
       "signature": "def dijkstra(n: int, edges: List[List[int]], start: int) -> List[int]:"
     },
     {
       "id": "graph_bipartite_check",
-      "name": "Graph — Bipartite Check",
+      "name": "Graph \u2014 Bipartite Check",
       "category": "graphs",
       "topic": "bipartite",
-      "weight": 9,
+      "weight": 6,
       "description": "Determine whether an undirected graph is bipartite by coloring nodes using BFS or DFS and checking for conflicting colors.",
       "signature": "def is_bipartite(graph: List[List[int]]) -> bool:"
     }

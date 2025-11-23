@@ -2,64 +2,64 @@
   "trees": [
     {
       "id": "tree_inorder_traversal",
-      "name": "Tree Traversal — Inorder",
+      "name": "Tree Traversal \u2014 Inorder",
       "category": "trees",
       "topic": "dfs",
-      "weight": 8,
+      "weight": 5,
       "description": "Perform an inorder traversal of a binary tree: visit left subtree, then the current node, then the right subtree. Return a list of visited values.",
       "signature": "def inorder_traversal(root: Optional[TreeNode]) -> List[int]:"
     },
     {
       "id": "tree_preorder_traversal",
-      "name": "Tree Traversal — Preorder",
+      "name": "Tree Traversal \u2014 Preorder",
       "category": "trees",
       "topic": "dfs",
-      "weight": 8,
+      "weight": 5,
       "description": "Perform a preorder traversal of a binary tree: visit the current node first, then its left subtree, then right subtree. Return a list of visited values.",
       "signature": "def preorder_traversal(root: Optional[TreeNode]) -> List[int]:"
     },
     {
       "id": "tree_postorder_traversal",
-      "name": "Tree Traversal — Postorder",
+      "name": "Tree Traversal \u2014 Postorder",
       "category": "trees",
       "topic": "dfs",
-      "weight": 8,
+      "weight": 5,
       "description": "Perform a postorder traversal of a binary tree: visit left subtree, then right subtree, and finally the current node. Return the list of visited values.",
       "signature": "def postorder_traversal(root: Optional[TreeNode]) -> List[int]:"
     },
     {
       "id": "tree_level_order",
-      "name": "Tree Traversal — Level Order BFS",
+      "name": "Tree Traversal \u2014 Level Order BFS",
       "category": "trees",
       "topic": "bfs",
-      "weight": 9,
+      "weight": 6,
       "description": "Perform a level-order traversal of a binary tree using BFS. Return a list of values grouped by each tree level.",
       "signature": "def level_order(root: Optional[TreeNode]) -> List[List[int]]:"
     },
     {
       "id": "tree_max_depth",
-      "name": "Tree — Maximum Depth",
+      "name": "Tree \u2014 Maximum Depth",
       "category": "trees",
       "topic": "dfs",
-      "weight": 9,
+      "weight": 7,
       "description": "Compute the maximum depth of a binary tree using DFS recursion. Depth is the number of nodes along the longest path from root to leaf.",
       "signature": "def max_depth(root: Optional[TreeNode]) -> int:"
     },
     {
       "id": "tree_balanced",
-      "name": "Tree — Check if Balanced",
+      "name": "Tree \u2014 Check if Balanced",
       "category": "trees",
       "topic": "dfs",
-      "weight": 9,
+      "weight": 8,
       "description": "Determine whether a binary tree is height-balanced. A tree is balanced if the heights of its left and right subtrees differ by no more than one for every node.",
       "signature": "def is_balanced(root: Optional[TreeNode]) -> bool:"
     },
     {
       "id": "tree_lca",
-      "name": "Tree — Lowest Common Ancestor",
+      "name": "Tree \u2014 Lowest Common Ancestor",
       "category": "trees",
       "topic": "dfs",
-      "weight": 10,
+      "weight": 9,
       "description": "Given the root of a binary tree and two nodes p and q, return their lowest common ancestor (the deepest node that has both p and q as descendants).",
       "signature": "def lowest_common_ancestor(root: Optional[TreeNode], p: TreeNode, q: TreeNode) -> TreeNode:"
     }

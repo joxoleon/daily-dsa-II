@@ -16,7 +16,7 @@ def get_id_list(json_data):
 def ask_model_for_weights(ids):
     system_prompt = (
         "You output ONLY a flat JSON object where keys are problem IDs and "
-        "values are integer weights 1–10. No markdown. No commentary."
+        "values are integer weights 1–10. No markdown. No commentary. No text."
     )
 
     user_prompt = "IDs:\n" + "\n".join(ids)
@@ -34,7 +34,7 @@ def ask_model_for_weights(ids):
 
     try:
         return json.loads(content)
-    except:
+    except json.JSONDecodeError:
         print("INVALID JSON FROM MODEL:", content)
         return None
 
@@ -42,18 +42,27 @@ def ask_model_for_weights(ids):
 def update_json(json_data, weights):
     root_key = list(json_data.keys())[0]
     for item in json_data[root_key]:
-        if item["id"] in weights:
-            item["weight"] = weights[item["id"]]
+        item_id = item["id"]
+        if item_id in weights:
+            item["weight"] = weights[item_id]
     return json_data
 
 
 def process(path):
     print(f"=== Processing {path} ===")
 
-    with open(path, "r") as f:
-        data = json.load(f)
+    # Load file
+    try:
+        with open(path, "r") as f:
+            data = json.load(f)
+    except json.JSONDecodeError:
+        print("!!! FILE IS EMPTY OR INVALID JSON — SKIPPING")
+        return
 
     ids = get_id_list(data)
+    if not ids:
+        print("No IDs found, skipping.")
+        return
 
     print("IDs:", ids)
 
@@ -66,13 +75,11 @@ def process(path):
 
     updated = update_json(data, weights)
 
-    backup = path + ".bak"
-    os.replace(path, backup)
-
+    # Write updated file (NO BACKUPS)
     with open(path, "w") as f:
         json.dump(updated, f, indent=2)
 
-    print(f"Updated {path} (backup at {backup})")
+    print(f"✓ Updated {path} successfully\n")
 
 
 def main():

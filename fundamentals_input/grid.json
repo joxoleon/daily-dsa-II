@@ -2,19 +2,19 @@
   "grids": [
     {
       "id": "grid_dfs_basic",
-      "name": "DFS on a Grid — Explore Region",
+      "name": "DFS on a Grid \u2014 Explore Region",
       "category": "grids",
       "topic": "dfs",
-      "weight": 10,
+      "weight": 5,
       "description": "Perform depth-first search on a 2D grid to explore a connected region of cells that match a target value. Handle boundaries and visited tracking.",
       "signature": "def grid_dfs(grid: List[List[int]], r: int, c: int, target: int) -> int:"
     },
     {
       "id": "grid_bfs_basic",
-      "name": "BFS on a Grid — Explore Region",
+      "name": "BFS on a Grid \u2014 Explore Region",
       "category": "grids",
       "topic": "bfs",
-      "weight": 10,
+      "weight": 5,
       "description": "Perform breadth-first search from a starting position in a 2D grid to traverse all connected cells with the same value. Return the size of the region.",
       "signature": "def grid_bfs(grid: List[List[int]], r: int, c: int) -> int:"
     },
@@ -23,7 +23,7 @@
       "name": "Multi-Source BFS on Grid",
       "category": "grids",
       "topic": "bfs",
-      "weight": 9,
+      "weight": 6,
       "description": "Run BFS starting from multiple initial grid cells simultaneously to compute the minimum distance/time to fill or reach each cell.",
       "signature": "def multi_source_bfs(grid: List[List[int]], sources: List[Tuple[int,int]]) -> int:"
     },
@@ -32,7 +32,7 @@
       "name": "Count Connected Components in Grid",
       "category": "grids",
       "topic": "dfs",
-      "weight": 10,
+      "weight": 7,
       "description": "Given a 2D grid, count how many connected components exist where cells match a given value such as 1s forming islands.",
       "signature": "def count_components(grid: List[List[int]]) -> int:"
     },
@@ -41,7 +41,7 @@
       "name": "Shortest Path in a Grid",
       "category": "grids",
       "topic": "bfs",
-      "weight": 9,
+      "weight": 8,
       "description": "Given a grid of obstacles and open cells, compute the shortest path from top-left to bottom-right using BFS. Return -1 if unreachable.",
       "signature": "def shortest_path(grid: List[List[int]]) -> int:"
     },

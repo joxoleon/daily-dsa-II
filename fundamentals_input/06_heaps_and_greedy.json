@@ -2,43 +2,43 @@
   "heaps_greedy": [
     {
       "id": "heap_k_smallest",
-      "name": "Heap — K Smallest Elements",
+      "name": "Heap \u2014 K Smallest Elements",
       "category": "heaps",
       "topic": "min_heap",
-      "weight": 9,
+      "weight": 8,
       "description": "Given a list of integers and a value k, return the k smallest elements in any order using a min-heap. If k exceeds the list length, return all elements.",
       "signature": "def k_smallest(nums: List[int], k: int) -> List[int]:"
     },
     {
       "id": "heap_k_largest",
-      "name": "Heap — K Largest Elements",
+      "name": "Heap \u2014 K Largest Elements",
       "category": "heaps",
       "topic": "max_heap",
-      "weight": 9,
+      "weight": 8,
       "description": "Given a list of integers and a value k, return the k largest elements using a min-heap of size k. If k exceeds the list length, return all elements.",
       "signature": "def k_largest(nums: List[int], k: int) -> List[int]:"
     },
     {
       "id": "heap_last_stone_weight",
-      "name": "Heap — Last Stone Weight",
+      "name": "Heap \u2014 Last Stone Weight",
       "category": "heaps",
       "topic": "max_heap",
-      "weight": 8,
+      "weight": 6,
       "description": "Given a list of stone weights, repeatedly smash the two heaviest stones until none or one remains. Return the final remaining weight.",
       "signature": "def last_stone_weight(stones: List[int]) -> int:"
     },
     {
       "id": "greedy_merge_intervals",
-      "name": "Greedy — Merge Intervals",
+      "name": "Greedy \u2014 Merge Intervals",
       "category": "greedy",
       "topic": "intervals",
-      "weight": 10,
+      "weight": 9,
       "description": "Given a list of intervals, merge all overlapping intervals and return the result in sorted order based on start times.",
       "signature": "def merge_intervals(intervals: List[List[int]]) -> List[List[int]]:"
     },
     {
       "id": "greedy_non_overlapping_intervals",
-      "name": "Greedy — Non-Overlapping Intervals",
+      "name": "Greedy \u2014 Non-Overlapping Intervals",
       "category": "greedy",
       "topic": "intervals",
       "weight": 9,
@@ -47,16 +47,16 @@
     },
     {
       "id": "greedy_meeting_rooms",
-      "name": "Greedy — Meeting Rooms Required",
+      "name": "Greedy \u2014 Meeting Rooms Required",
       "category": "greedy",
       "topic": "meetings",
-      "weight": 9,
+      "weight": 7,
       "description": "Given meeting time intervals, return the minimum number of conference rooms required, using separate start and end time sorting.",
       "signature": "def min_meeting_rooms(intervals: List[List[int]]) -> int:"
     },
     {
       "id": "heap_priority_scheduling",
-      "name": "Heap — Priority Scheduling",
+      "name": "Heap \u2014 Priority Scheduling",
       "category": "heaps",
       "topic": "priority_queue",
       "weight": 7,

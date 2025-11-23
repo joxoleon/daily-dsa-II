@@ -2,100 +2,100 @@
   "dp": [
     {
       "id": "dp_fibonacci_bottom_up",
-      "name": "DP — Fibonacci Bottom-Up",
+      "name": "DP \u2014 Fibonacci Bottom-Up",
       "category": "dp",
       "topic": "1d_dp",
-      "weight": 6,
+      "weight": 5,
       "description": "Compute the nth Fibonacci number using bottom-up dynamic programming with a table or rolling variables. Return the value of F(n).",
       "signature": "def fib(n: int) -> int:"
     },
     {
       "id": "dp_climbing_stairs",
-      "name": "DP — Climbing Stairs",
+      "name": "DP \u2014 Climbing Stairs",
       "category": "dp",
       "topic": "1d_dp",
-      "weight": 7,
+      "weight": 6,
       "description": "Given n stairs, compute how many distinct ways you can climb to the top by taking steps of size 1 or 2 using bottom-up DP.",
       "signature": "def climb_stairs(n: int) -> int:"
     },
     {
       "id": "dp_house_robber",
-      "name": "DP — House Robber",
+      "name": "DP \u2014 House Robber",
       "category": "dp",
       "topic": "1d_dp",
-      "weight": 9,
+      "weight": 7,
       "description": "Given a list of integers representing money in houses, compute the maximum amount you can rob without robbing adjacent houses using rolling DP.",
       "signature": "def house_robber(nums: List[int]) -> int:"
     },
     {
       "id": "dp_lis_n2",
-      "name": "DP — Longest Increasing Subsequence (O(n^2))",
+      "name": "DP \u2014 Longest Increasing Subsequence (O(n^2))",
       "category": "dp",
       "topic": "1d_dp",
-      "weight": 9,
-      "description": "Compute the length of the longest strictly increasing subsequence using O(n²) dynamic programming.",
+      "weight": 7,
+      "description": "Compute the length of the longest strictly increasing subsequence using O(n\u00b2) dynamic programming.",
       "signature": "def length_of_lis(nums: List[int]) -> int:"
     },
     {
       "id": "dp_jump_game",
-      "name": "DP — Jump Game Reachability",
+      "name": "DP \u2014 Jump Game Reachability",
       "category": "dp",
       "topic": "1d_dp",
-      "weight": 9,
+      "weight": 6,
       "description": "Given an array where nums[i] indicates max jump length at index i, determine whether it is possible to reach the last index using DP or greedy logic.",
       "signature": "def can_jump(nums: List[int]) -> bool:"
     },
     {
       "id": "dp_coin_change_min",
-      "name": "DP — Coin Change (Minimum Coins)",
+      "name": "DP \u2014 Coin Change (Minimum Coins)",
       "category": "dp",
       "topic": "1d_dp",
-      "weight": 10,
+      "weight": 8,
       "description": "Given coin denominations and a target amount, compute the fewest coins needed to reach the target using bottom-up DP. Return -1 if impossible.",
       "signature": "def coin_change(coins: List[int], amount: int) -> int:"
     },
     {
       "id": "dp_lcs",
-      "name": "DP — Longest Common Subsequence",
+      "name": "DP \u2014 Longest Common Subsequence",
       "category": "dp",
       "topic": "2d_dp",
-      "weight": 10,
+      "weight": 9,
       "description": "Compute the length of the longest common subsequence between two strings using a 2D dynamic programming table.",
       "signature": "def lcs(text1: str, text2: str) -> int:"
     },
     {
       "id": "dp_edit_distance",
-      "name": "DP — Edit Distance",
+      "name": "DP \u2014 Edit Distance",
       "category": "dp",
       "topic": "2d_dp",
-      "weight": 10,
+      "weight": 9,
       "description": "Compute the minimum number of operations (insert, delete, replace) required to convert one string into another using 2D dynamic programming.",
       "signature": "def edit_distance(s1: str, s2: str) -> int:"
     },
     {
       "id": "dp_grid_min_path_sum",
-      "name": "DP — Grid Minimum Path Sum",
+      "name": "DP \u2014 Grid Minimum Path Sum",
       "category": "dp",
       "topic": "2d_dp",
-      "weight": 8,
+      "weight": 7,
       "description": "Given a grid of non-negative numbers, compute the minimum path sum from top-left to bottom-right using 2D DP, moving only right or down.",
       "signature": "def min_path_sum(grid: List[List[int]]) -> int:"
     },
     {
       "id": "dp_lps",
-      "name": "DP — Longest Palindromic Subsequence",
+      "name": "DP \u2014 Longest Palindromic Subsequence",
       "category": "dp",
       "topic": "2d_dp",
-      "weight": 9,
+      "weight": 8,
       "description": "Given a string, compute the length of the longest palindromic subsequence using interval DP with a 2D table.",
       "signature": "def longest_palindromic_subsequence(s: str) -> int:"
     },
     {
       "id": "dp_palindromic_substrings",
-      "name": "DP — Count Palindromic Substrings",
+      "name": "DP \u2014 Count Palindromic Substrings",
       "category": "dp",
       "topic": "2d_dp",
-      "weight": 8,
+      "weight": 7,
       "description": "Count the number of palindromic substrings in a string using dynamic programming over substring intervals.",
       "signature": "def count_palindromic_substrings(s: str) -> int:"
     }
