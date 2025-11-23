@@ -1,0 +1,49 @@
+{
+  "linked_list": [
+    {
+      "id": "linkedlist_reverse",
+      "name": "Reverse Linked List",
+      "category": "linked_list",
+      "topic": "classic",
+      "weight": 10,
+      "description": "Reverse a singly linked list in-place and return the new head.",
+      "signature": "def reverse_list(head: Optional[ListNode]) -> Optional[ListNode]:"
+    },
+    {
+      "id": "linkedlist_detect_cycle",
+      "name": "Cycle Detection (Floyd's Algorithm)",
+      "category": "linked_list",
+      "topic": "cycle",
+      "weight": 10,
+      "description": "Detect whether a singly linked list has a cycle using fast and slow pointers.",
+      "signature": "def has_cycle(head: Optional[ListNode]) -> bool:"
+    },
+    {
+      "id": "linkedlist_merge_two_sorted",
+      "name": "Merge Two Sorted Linked Lists",
+      "category": "linked_list",
+      "topic": "merge",
+      "weight": 9,
+      "description": "Merge two sorted singly linked lists and return the new sorted list.",
+      "signature": "def merge_lists(l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:"
+    },
+    {
+      "id": "linkedlist_remove_nth",
+      "name": "Remove Nth Node From End",
+      "category": "linked_list",
+      "topic": "two_pointers",
+      "weight": 8,
+      "description": "Remove the n-th node from the end of the list using two pointers.",
+      "signature": "def remove_nth_from_end(head: Optional[ListNode], n: int) -> Optional[ListNode]:"
+    },
+    {
+      "id": "linkedlist_middle_node",
+      "name": "Find Middle of Linked List",
+      "category": "linked_list",
+      "topic": "two_pointers",
+      "weight": 7,
+      "description": "Return the middle node of a singly linked list using fast/slow pointers.",
+      "signature": "def middle_node(head: Optional[ListNode]) -> Optional[ListNode]:"
+    }
+  ]
+}
