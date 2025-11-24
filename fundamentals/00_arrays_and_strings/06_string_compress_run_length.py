@@ -15,8 +15,22 @@ Input: "aaabbc" -> Output: "a3b2c1"
 """
 
 def rle_compress(s: str) -> str:
-    pass
-
+    if not s:
+        return ""
+    res = []
+    count = 1
+    
+    for i in range(1, len(s)):
+        if s[i] == s[i - 1]:
+            count += 1
+        else:
+            res.append(s[i - 1])
+            res.append(str(count))
+            count = 1
+    res.append(s[-1])
+    res.append(str(count))
+    return "".join(res)
+    
 
 if __name__ == "__main__":
     assert rle_compress("aaabbc") == "a3b2c1"

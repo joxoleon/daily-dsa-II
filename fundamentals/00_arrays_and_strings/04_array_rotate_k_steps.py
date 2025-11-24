@@ -19,7 +19,24 @@ Input: nums = [1,2,3,4,5], k = 2 -> Output: [4,5,1,2,3]
 from typing import List
 
 def rotate(nums: List[int], k: int) -> List[int]:
-    pass
+    n = len(nums)
+    if n == 0 or k % n == 0:
+        return nums
+    k %= n
+    
+    def rev(arr, l, r):
+        while l < r:
+            arr[l], arr[r] = arr[r], arr[l]
+            l += 1
+            r -= 1
+    
+    # Reverse the entire array
+    rev(nums, 0, n - 1)
+    # Reverse the first k elements
+    rev(nums, 0, k - 1)
+    # Reverse elements after k
+    rev(nums, k, n - 1)
+    return nums
 
 if __name__ == "__main__":
     assert rotate([1,2,3,4,5], 2) == [4,5,1,2,3]

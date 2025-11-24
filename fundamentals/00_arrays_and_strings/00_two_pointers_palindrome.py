@@ -17,7 +17,10 @@ Input: [2, 4, 4, 2] -> Output: True
 from typing import List
 
 def is_palindrome(nums: List[int]) -> bool:
-    pass
+    for i in range(len(nums) // 2):
+        if nums[i] != nums[len(nums) - 1 - i]:
+            return False
+    return True
 
 if __name__ == "__main__":
     assert is_palindrome([1, 2, 2, 1]) == True

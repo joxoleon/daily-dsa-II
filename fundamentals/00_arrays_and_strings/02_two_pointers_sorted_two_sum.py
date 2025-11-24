@@ -17,7 +17,18 @@ Input: nums = [1, 2, 4, 7, 11], target = 15 -> Output: True
 from typing import List
 
 def two_sum_sorted(nums: List[int], target: int) -> bool:
-    pass
+    n = len(nums)
+    l, r = 0, n - 1
+    while l < r:
+        summed = nums[l] + nums[r]
+        if summed > target:
+            r -= 1
+        elif summed < target:
+            l += 1
+        else:
+            return True
+    return False
+            
 
 if __name__ == "__main__":
     assert two_sum_sorted([1, 2, 4, 7, 11], 15) == True

@@ -17,7 +17,13 @@ Input: [1,1,2,2,3] -> Output: 3
 from typing import List
 
 def count_unique(nums: List[int]) -> int:
-    pass
+    if not nums:
+        return 0
+    count = 1
+    for i in range(1, len(nums)):
+        if nums[i] != nums[i - 1]:
+            count += 1
+    return count
 
 if __name__ == "__main__":
     assert count_unique([1,1,2,2,3]) == 3

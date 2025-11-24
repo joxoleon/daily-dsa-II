@@ -14,9 +14,25 @@ Constraints:
 Example:
 Input: "Hello world!" -> Output: "Hello"
 """
+import string
 
 def longest_word(sentence: str) -> str:
-    pass
+    punct = set(string.punctuation)
+    words = sentence.split()
+
+    best_word = words[0]
+    best_len = len(words[0].strip(string.punctuation))
+
+    for w in words[1:]:
+        cleaned = w.strip(string.punctuation)
+        L = len(cleaned)
+
+        if L > best_len:
+            best_len = L
+            best_word = w
+
+    return best_word
+    
 
 if __name__ == "__main__":
     assert longest_word("The quick brown fox") == "quick"

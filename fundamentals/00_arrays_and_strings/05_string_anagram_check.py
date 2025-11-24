@@ -15,7 +15,20 @@ Input: s = "listen", t = "silent" -> Output: True
 """
 
 def is_anagram(s: str, t: str) -> bool:
-    pass
+    n = len(s)
+    k = len(t)
+    if n != k:
+        return False
+    cm = [0 for _ in range(26)]
+    for i in range(n):
+        char_s = ord(s[i]) - ord('a')
+        char_t = ord(t[i]) - ord('a')
+        cm[char_s] += 1
+        cm[char_t] -= 1
+    for i in range(0, 26):
+        if cm[i] != 0:
+            return False
+    return True
 
 if __name__ == "__main__":
     assert is_anagram("listen", "silent") == True

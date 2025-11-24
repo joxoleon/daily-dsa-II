@@ -17,7 +17,10 @@ Input: [1, 2, 3, 4] -> Output: [4, 3, 2, 1]
 from typing import List
 
 def reverse_array(nums: List[int]) -> List[int]:
-    pass
+    n = len(nums)
+    for i in range(n // 2):
+        nums[i], nums[n - i - 1] = nums[n - i - 1], nums[i]
+    return nums
 
 if __name__ == "__main__":
     assert reverse_array([1, 2, 3, 4]) == [4, 3, 2, 1]
