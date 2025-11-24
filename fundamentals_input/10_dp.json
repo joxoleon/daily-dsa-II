@@ -2,7 +2,7 @@
   "dp": [
     {
       "id": "dp_fibonacci_bottom_up",
-      "name": "DP \u2014 Fibonacci Bottom-Up",
+      "name": "DP - Fibonacci Bottom-Up",
       "category": "dp",
       "topic": "1d_dp",
       "weight": 5,
@@ -11,7 +11,7 @@
     },
     {
       "id": "dp_climbing_stairs",
-      "name": "DP \u2014 Climbing Stairs",
+      "name": "DP - Climbing Stairs",
       "category": "dp",
       "topic": "1d_dp",
       "weight": 6,
@@ -20,7 +20,7 @@
     },
     {
       "id": "dp_house_robber",
-      "name": "DP \u2014 House Robber",
+      "name": "DP - House Robber",
       "category": "dp",
       "topic": "1d_dp",
       "weight": 7,
@@ -29,7 +29,7 @@
     },
     {
       "id": "dp_lis_n2",
-      "name": "DP \u2014 Longest Increasing Subsequence (O(n^2))",
+      "name": "DP - Longest Increasing Subsequence (O(n^2))",
       "category": "dp",
       "topic": "1d_dp",
       "weight": 7,
@@ -38,7 +38,7 @@
     },
     {
       "id": "dp_jump_game",
-      "name": "DP \u2014 Jump Game Reachability",
+      "name": "DP - Jump Game Reachability",
       "category": "dp",
       "topic": "1d_dp",
       "weight": 6,
@@ -47,7 +47,7 @@
     },
     {
       "id": "dp_coin_change_min",
-      "name": "DP \u2014 Coin Change (Minimum Coins)",
+      "name": "DP - Coin Change (Minimum Coins)",
       "category": "dp",
       "topic": "1d_dp",
       "weight": 8,
@@ -56,7 +56,7 @@
     },
     {
       "id": "dp_lcs",
-      "name": "DP \u2014 Longest Common Subsequence",
+      "name": "DP - Longest Common Subsequence",
       "category": "dp",
       "topic": "2d_dp",
       "weight": 9,
@@ -65,7 +65,7 @@
     },
     {
       "id": "dp_edit_distance",
-      "name": "DP \u2014 Edit Distance",
+      "name": "DP - Edit Distance",
       "category": "dp",
       "topic": "2d_dp",
       "weight": 9,
@@ -74,7 +74,7 @@
     },
     {
       "id": "dp_grid_min_path_sum",
-      "name": "DP \u2014 Grid Minimum Path Sum",
+      "name": "DP - Grid Minimum Path Sum",
       "category": "dp",
       "topic": "2d_dp",
       "weight": 7,
@@ -83,7 +83,7 @@
     },
     {
       "id": "dp_lps",
-      "name": "DP \u2014 Longest Palindromic Subsequence",
+      "name": "DP - Longest Palindromic Subsequence",
       "category": "dp",
       "topic": "2d_dp",
       "weight": 8,
@@ -92,7 +92,7 @@
     },
     {
       "id": "dp_palindromic_substrings",
-      "name": "DP \u2014 Count Palindromic Substrings",
+      "name": "DP - Count Palindromic Substrings",
       "category": "dp",
       "topic": "2d_dp",
       "weight": 7,

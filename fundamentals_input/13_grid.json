@@ -2,7 +2,7 @@
   "grids": [
     {
       "id": "grid_dfs_basic",
-      "name": "DFS on a Grid \u2014 Explore Region",
+      "name": "DFS on a Grid - Explore Region",
       "category": "grids",
       "topic": "dfs",
       "weight": 5,
@@ -11,7 +11,7 @@
     },
     {
       "id": "grid_bfs_basic",
-      "name": "BFS on a Grid \u2014 Explore Region",
+      "name": "BFS on a Grid - Explore Region",
       "category": "grids",
       "topic": "bfs",
       "weight": 5,

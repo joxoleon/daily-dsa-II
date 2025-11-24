@@ -20,7 +20,7 @@
     },
     {
       "id": "interval_meeting_rooms",
-      "name": "Meeting Rooms \u2014 Can Attend All",
+      "name": "Meeting Rooms - Can Attend All",
       "category": "intervals",
       "topic": "overlap_check",
       "weight": 8,
@@ -29,7 +29,7 @@
     },
     {
       "id": "interval_meeting_rooms_ii",
-      "name": "Meeting Rooms II \u2014 Minimum Rooms Required",
+      "name": "Meeting Rooms II - Minimum Rooms Required",
       "category": "intervals",
       "topic": "min_rooms",
       "weight": 8,

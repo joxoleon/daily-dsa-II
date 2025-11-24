@@ -2,7 +2,7 @@
   "trees": [
     {
       "id": "tree_inorder_traversal",
-      "name": "Tree Traversal \u2014 Inorder",
+      "name": "Tree Traversal - Inorder",
       "category": "trees",
       "topic": "dfs",
       "weight": 5,
@@ -11,7 +11,7 @@
     },
     {
       "id": "tree_preorder_traversal",
-      "name": "Tree Traversal \u2014 Preorder",
+      "name": "Tree Traversal - Preorder",
       "category": "trees",
       "topic": "dfs",
       "weight": 5,
@@ -20,7 +20,7 @@
     },
     {
       "id": "tree_postorder_traversal",
-      "name": "Tree Traversal \u2014 Postorder",
+      "name": "Tree Traversal - Postorder",
       "category": "trees",
       "topic": "dfs",
       "weight": 5,
@@ -29,7 +29,7 @@
     },
     {
       "id": "tree_level_order",
-      "name": "Tree Traversal \u2014 Level Order BFS",
+      "name": "Tree Traversal - Level Order BFS",
       "category": "trees",
       "topic": "bfs",
       "weight": 6,
@@ -38,7 +38,7 @@
     },
     {
       "id": "tree_max_depth",
-      "name": "Tree \u2014 Maximum Depth",
+      "name": "Tree - Maximum Depth",
       "category": "trees",
       "topic": "dfs",
       "weight": 7,
@@ -47,7 +47,7 @@
     },
     {
       "id": "tree_balanced",
-      "name": "Tree \u2014 Check if Balanced",
+      "name": "Tree - Check if Balanced",
       "category": "trees",
       "topic": "dfs",
       "weight": 8,
@@ -56,7 +56,7 @@
     },
     {
       "id": "tree_lca",
-      "name": "Tree \u2014 Lowest Common Ancestor",
+      "name": "Tree - Lowest Common Ancestor",
       "category": "trees",
       "topic": "dfs",
       "weight": 9,

@@ -2,7 +2,7 @@
   "arrays_and_strings": [
     {
       "id": "two_pointers_palindrome",
-      "name": "Two Pointers \u2014 Palindrome Check",
+      "name": "Two Pointers - Palindrome Check",
       "category": "arrays",
       "topic": "two_pointers",
       "weight": 8,
@@ -11,7 +11,7 @@
     },
     {
       "id": "two_pointers_reverse_array",
-      "name": "Two Pointers \u2014 Reverse Array In-Place",
+      "name": "Two Pointers - Reverse Array In-Place",
       "category": "arrays",
       "topic": "two_pointers",
       "weight": 6,
@@ -20,7 +20,7 @@
     },
     {
       "id": "two_pointers_sorted_two_sum",
-      "name": "Two Pointers \u2014 Two Sum in Sorted Array",
+      "name": "Two Pointers - Two Sum in Sorted Array",
       "category": "arrays",
       "topic": "two_pointers",
       "weight": 9,
@@ -29,7 +29,7 @@
     },
     {
       "id": "array_remove_duplicates_sorted",
-      "name": "Remove Duplicates from Sorted Array \u2014 Count Unique",
+      "name": "Remove Duplicates from Sorted Array - Count Unique",
       "category": "arrays",
       "topic": "in_place",
       "weight": 7,

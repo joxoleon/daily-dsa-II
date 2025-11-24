@@ -2,7 +2,7 @@
   "stacks_and_queues": [
     {
       "id": "stack_valid_parentheses",
-      "name": "Stack \u2014 Valid Parentheses",
+      "name": "Stack - Valid Parentheses",
       "category": "stacks",
       "topic": "basic_stack",
       "weight": 7,
@@ -11,7 +11,7 @@
     },
     {
       "id": "stack_min_stack",
-      "name": "Stack \u2014 Min Stack (O(1) Min Retrieval)",
+      "name": "Stack - Min Stack (O(1) Min Retrieval)",
       "category": "stacks",
       "topic": "design",
       "weight": 6,
@@ -20,7 +20,7 @@
     },
     {
       "id": "stack_monotonic_next_greater",
-      "name": "Monotonic Stack \u2014 Next Greater Element",
+      "name": "Monotonic Stack - Next Greater Element",
       "category": "stacks",
       "topic": "monotonic_stack",
       "weight": 8,
@@ -29,7 +29,7 @@
     },
     {
       "id": "stack_monotonic_histogram",
-      "name": "Monotonic Stack \u2014 Largest Rectangle in Histogram",
+      "name": "Monotonic Stack - Largest Rectangle in Histogram",
       "category": "stacks",
       "topic": "monotonic_stack",
       "weight": 9,
@@ -47,7 +47,7 @@
     },
     {
       "id": "deque_sliding_window_max",
-      "name": "Deque \u2014 Sliding Window Maximum",
+      "name": "Deque - Sliding Window Maximum",
       "category": "queues",
       "topic": "deque",
       "weight": 8,

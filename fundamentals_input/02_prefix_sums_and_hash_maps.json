@@ -2,7 +2,7 @@
   "prefix_and_hash": [
     {
       "id": "prefix_running_sum",
-      "name": "Prefix Sum \u2014 Running Sum Array",
+      "name": "Prefix Sum - Running Sum Array",
       "category": "arrays",
       "topic": "prefix_sum_basic",
       "weight": 3,
@@ -11,7 +11,7 @@
     },
     {
       "id": "prefix_subarray_sum_k",
-      "name": "Prefix Sum \u2014 Subarray Sum Equals K",
+      "name": "Prefix Sum - Subarray Sum Equals K",
       "category": "arrays",
       "topic": "prefix_sum_hashmap",
       "weight": 7,
@@ -20,7 +20,7 @@
     },
     {
       "id": "prefix_longest_subarray_k",
-      "name": "Prefix Sum \u2014 Longest Subarray with Sum K",
+      "name": "Prefix Sum - Longest Subarray with Sum K",
       "category": "arrays",
       "topic": "prefix_sum_hashmap",
       "weight": 6,
@@ -29,7 +29,7 @@
     },
     {
       "id": "prefix_even_odd_counts",
-      "name": "Prefix Sum \u2014 Count Subarrays with Even/Odd Sum",
+      "name": "Prefix Sum - Count Subarrays with Even/Odd Sum",
       "category": "arrays",
       "topic": "prefix_sum_parity",
       "weight": 4,
@@ -38,7 +38,7 @@
     },
     {
       "id": "prefix_binary_subarray_equal_0_1",
-      "name": "Prefix Sum \u2014 Longest Binary Subarray with Equal 0s and 1s",
+      "name": "Prefix Sum - Longest Binary Subarray with Equal 0s and 1s",
       "category": "arrays",
       "topic": "prefix_sum_hashmap",
       "weight": 8,
@@ -47,7 +47,7 @@
     },
     {
       "id": "prefix_difference_array_update",
-      "name": "Difference Array \u2014 Efficient Range Updates",
+      "name": "Difference Array - Efficient Range Updates",
       "category": "arrays",
       "topic": "difference_array",
       "weight": 5,
@@ -56,7 +56,7 @@
     },
     {
       "id": "hashmap_frequency_basic",
-      "name": "Hash Map \u2014 Character Frequency Counter",
+      "name": "Hash Map - Character Frequency Counter",
       "category": "strings",
       "topic": "hashmap_frequency",
       "weight": 3,

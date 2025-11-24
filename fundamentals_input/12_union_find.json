@@ -2,7 +2,7 @@
   "union_find": [
     {
       "id": "dsu_basic_structure",
-      "name": "Union-Find \u2014 Basic Structure",
+      "name": "Union-Find - Basic Structure",
       "category": "union_find",
       "topic": "dsu_core",
       "weight": 8,
@@ -11,7 +11,7 @@
     },
     {
       "id": "dsu_union_by_rank",
-      "name": "Union-Find \u2014 Union by Rank",
+      "name": "Union-Find - Union by Rank",
       "category": "union_find",
       "topic": "dsu_optimization",
       "weight": 7,
@@ -20,7 +20,7 @@
     },
     {
       "id": "dsu_path_compression",
-      "name": "Union-Find \u2014 Path Compression",
+      "name": "Union-Find - Path Compression",
       "category": "union_find",
       "topic": "dsu_optimization",
       "weight": 9,
@@ -29,7 +29,7 @@
     },
     {
       "id": "dsu_count_components",
-      "name": "Union-Find \u2014 Count Connected Components",
+      "name": "Union-Find - Count Connected Components",
       "category": "union_find",
       "topic": "components",
       "weight": 6,
@@ -38,7 +38,7 @@
     },
     {
       "id": "dsu_cycle_detection",
-      "name": "Union-Find \u2014 Cycle Detection in Undirected Graph",
+      "name": "Union-Find - Cycle Detection in Undirected Graph",
       "category": "union_find",
       "topic": "cycle_detection",
       "weight": 7,
@@ -47,7 +47,7 @@
     },
     {
       "id": "dsu_number_of_islands",
-      "name": "Union-Find \u2014 Number of Islands (Grid DSU)",
+      "name": "Union-Find - Number of Islands (Grid DSU)",
       "category": "union_find",
       "topic": "grid_dsu",
       "weight": 8,

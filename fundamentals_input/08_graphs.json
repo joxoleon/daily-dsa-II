@@ -2,7 +2,7 @@
   "graphs": [
     {
       "id": "graph_bfs_adjlist",
-      "name": "Graph BFS \u2014 Adjacency List",
+      "name": "Graph BFS - Adjacency List",
       "category": "graphs",
       "topic": "bfs",
       "weight": 7,
@@ -11,7 +11,7 @@
     },
     {
       "id": "graph_dfs_adjlist",
-      "name": "Graph DFS \u2014 Adjacency List",
+      "name": "Graph DFS - Adjacency List",
       "category": "graphs",
       "topic": "dfs",
       "weight": 7,
@@ -20,7 +20,7 @@
     },
     {
       "id": "graph_dfs_grid",
-      "name": "Grid DFS \u2014 Count Islands",
+      "name": "Grid DFS - Count Islands",
       "category": "graphs",
       "topic": "grid_dfs",
       "weight": 6,
@@ -29,7 +29,7 @@
     },
     {
       "id": "graph_topological_sort_kahn",
-      "name": "Topological Sort \u2014 Kahn's Algorithm",
+      "name": "Topological Sort - Kahn's Algorithm",
       "category": "graphs",
       "topic": "toposort",
       "weight": 8,
@@ -38,7 +38,7 @@
     },
     {
       "id": "graph_cycle_detection_directed",
-      "name": "Cycle Detection \u2014 Directed Graph",
+      "name": "Cycle Detection - Directed Graph",
       "category": "graphs",
       "topic": "cycle_detection",
       "weight": 8,
@@ -47,7 +47,7 @@
     },
     {
       "id": "graph_cycle_detection_undirected",
-      "name": "Cycle Detection \u2014 Undirected Graph",
+      "name": "Cycle Detection - Undirected Graph",
       "category": "graphs",
       "topic": "cycle_detection",
       "weight": 7,
@@ -56,7 +56,7 @@
     },
     {
       "id": "graph_connected_components",
-      "name": "Connected Components \u2014 DFS Count",
+      "name": "Connected Components - DFS Count",
       "category": "graphs",
       "topic": "components",
       "weight": 7,
@@ -65,7 +65,7 @@
     },
     {
       "id": "graph_dijkstra",
-      "name": "Dijkstra \u2014 Shortest Path",
+      "name": "Dijkstra - Shortest Path",
       "category": "graphs",
       "topic": "dijkstra",
       "weight": 9,
@@ -74,7 +74,7 @@
     },
     {
       "id": "graph_bipartite_check",
-      "name": "Graph \u2014 Bipartite Check",
+      "name": "Graph - Bipartite Check",
       "category": "graphs",
       "topic": "bipartite",
       "weight": 6,

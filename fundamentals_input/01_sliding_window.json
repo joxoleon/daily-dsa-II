@@ -2,7 +2,7 @@
   "sliding_window": [
     {
       "id": "sw_fixed_size_max_sum",
-      "name": "Sliding Window \u2014 Max Sum of Fixed Window",
+      "name": "Sliding Window - Max Sum of Fixed Window",
       "category": "arrays",
       "topic": "sliding_window_fixed",
       "weight": 6,
@@ -11,7 +11,7 @@
     },
     {
       "id": "sw_min_subarray_len",
-      "name": "Sliding Window \u2014 Minimum Subarray Length",
+      "name": "Sliding Window - Minimum Subarray Length",
       "category": "arrays",
       "topic": "sliding_window_variable",
       "weight": 7,
@@ -20,7 +20,7 @@
     },
     {
       "id": "sw_longest_no_repeat",
-      "name": "Sliding Window \u2014 Longest Substring Without Repeating Characters",
+      "name": "Sliding Window - Longest Substring Without Repeating Characters",
       "category": "strings",
       "topic": "sliding_window_hash",
       "weight": 8,
@@ -29,7 +29,7 @@
     },
     {
       "id": "sw_longest_k_distinct",
-      "name": "Sliding Window \u2014 Longest Substring with K Distinct",
+      "name": "Sliding Window - Longest Substring with K Distinct",
       "category": "strings",
       "topic": "sliding_window_k_distinct",
       "weight": 7,
@@ -38,7 +38,7 @@
     },
     {
       "id": "sw_fruit_into_baskets",
-      "name": "Sliding Window \u2014 Fruit into Baskets",
+      "name": "Sliding Window - Fruit into Baskets",
       "category": "arrays",
       "topic": "sliding_window_k_distinct",
       "weight": 6,
@@ -47,7 +47,7 @@
     },
     {
       "id": "sw_longest_ones_with_flips",
-      "name": "Sliding Window \u2014 Longest Ones After Flips",
+      "name": "Sliding Window - Longest Ones After Flips",
       "category": "arrays",
       "topic": "sliding_window_zero_flips",
       "weight": 7,

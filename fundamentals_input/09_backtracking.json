@@ -2,7 +2,7 @@
   "backtracking": [
     {
       "id": "bt_subsets",
-      "name": "Backtracking \u2014 Generate Subsets",
+      "name": "Backtracking - Generate Subsets",
       "category": "backtracking",
       "topic": "subsets",
       "weight": 7,
@@ -11,7 +11,7 @@
     },
     {
       "id": "bt_subsets_with_duplicates",
-      "name": "Backtracking \u2014 Subsets With Duplicates",
+      "name": "Backtracking - Subsets With Duplicates",
       "category": "backtracking",
       "topic": "subsets",
       "weight": 8,
@@ -20,7 +20,7 @@
     },
     {
       "id": "bt_permutations",
-      "name": "Backtracking \u2014 Permutations",
+      "name": "Backtracking - Permutations",
       "category": "backtracking",
       "topic": "permutations",
       "weight": 7,
@@ -29,7 +29,7 @@
     },
     {
       "id": "bt_combinations",
-      "name": "Backtracking \u2014 Combinations",
+      "name": "Backtracking - Combinations",
       "category": "backtracking",
       "topic": "combinations",
       "weight": 6,
@@ -38,7 +38,7 @@
     },
     {
       "id": "bt_combination_sum",
-      "name": "Backtracking \u2014 Combination Sum",
+      "name": "Backtracking - Combination Sum",
       "category": "backtracking",
       "topic": "combination_sum",
       "weight": 8,
@@ -47,7 +47,7 @@
     },
     {
       "id": "bt_combination_sum_ii",
-      "name": "Backtracking \u2014 Combination Sum II",
+      "name": "Backtracking - Combination Sum II",
       "category": "backtracking",
       "topic": "combination_sum",
       "weight": 9,

@@ -2,7 +2,7 @@
   "binary_search": [
     {
       "id": "bs_classic",
-      "name": "Binary Search \u2014 Classic Index Search",
+      "name": "Binary Search - Classic Index Search",
       "category": "arrays",
       "topic": "binary_search",
       "weight": 8,
@@ -11,7 +11,7 @@
     },
     {
       "id": "bs_leftmost",
-      "name": "Binary Search \u2014 Leftmost Occurrence",
+      "name": "Binary Search - Leftmost Occurrence",
       "category": "arrays",
       "topic": "binary_search_boundaries",
       "weight": 7,
@@ -20,7 +20,7 @@
     },
     {
       "id": "bs_rightmost",
-      "name": "Binary Search \u2014 Rightmost Occurrence",
+      "name": "Binary Search - Rightmost Occurrence",
       "category": "arrays",
       "topic": "binary_search_boundaries",
       "weight": 7,
@@ -29,7 +29,7 @@
     },
     {
       "id": "bs_rotated_search",
-      "name": "Binary Search \u2014 Search in Rotated Sorted Array",
+      "name": "Binary Search - Search in Rotated Sorted Array",
       "category": "arrays",
       "topic": "binary_search_rotated",
       "weight": 9,
@@ -38,7 +38,7 @@
     },
     {
       "id": "bs_find_min_rotated",
-      "name": "Binary Search \u2014 Find Minimum in Rotated Sorted Array",
+      "name": "Binary Search - Find Minimum in Rotated Sorted Array",
       "category": "arrays",
       "topic": "binary_search_rotated",
       "weight": 8,
@@ -47,7 +47,7 @@
     },
     {
       "id": "bs_search_insert",
-      "name": "Binary Search \u2014 Search Insert Position",
+      "name": "Binary Search - Search Insert Position",
       "category": "arrays",
       "topic": "binary_search_insert",
       "weight": 6,
@@ -56,7 +56,7 @@
     },
     {
       "id": "bs_peak_element",
-      "name": "Binary Search \u2014 Find Peak Element",
+      "name": "Binary Search - Find Peak Element",
       "category": "arrays",
       "topic": "binary_search_mountain",
       "weight": 7,
@@ -65,7 +65,7 @@
     },
     {
       "id": "bs_binary_search_answer",
-      "name": "Binary Search \u2014 Binary Search on Answer",
+      "name": "Binary Search - Binary Search on Answer",
       "category": "advanced",
       "topic": "binary_search_answer_space",
       "weight": 5,

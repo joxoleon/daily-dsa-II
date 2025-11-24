@@ -2,7 +2,7 @@
   "heaps_greedy": [
     {
       "id": "heap_k_smallest",
-      "name": "Heap \u2014 K Smallest Elements",
+      "name": "Heap - K Smallest Elements",
       "category": "heaps",
       "topic": "min_heap",
       "weight": 8,
@@ -11,7 +11,7 @@
     },
     {
       "id": "heap_k_largest",
-      "name": "Heap \u2014 K Largest Elements",
+      "name": "Heap - K Largest Elements",
       "category": "heaps",
       "topic": "max_heap",
       "weight": 8,
@@ -20,7 +20,7 @@
     },
     {
       "id": "heap_last_stone_weight",
-      "name": "Heap \u2014 Last Stone Weight",
+      "name": "Heap - Last Stone Weight",
       "category": "heaps",
       "topic": "max_heap",
       "weight": 6,
@@ -29,7 +29,7 @@
     },
     {
       "id": "greedy_merge_intervals",
-      "name": "Greedy \u2014 Merge Intervals",
+      "name": "Greedy - Merge Intervals",
       "category": "greedy",
       "topic": "intervals",
       "weight": 9,
@@ -38,7 +38,7 @@
     },
     {
       "id": "greedy_non_overlapping_intervals",
-      "name": "Greedy \u2014 Non-Overlapping Intervals",
+      "name": "Greedy - Non-Overlapping Intervals",
       "category": "greedy",
       "topic": "intervals",
       "weight": 9,
@@ -47,7 +47,7 @@
     },
     {
       "id": "greedy_meeting_rooms",
-      "name": "Greedy \u2014 Meeting Rooms Required",
+      "name": "Greedy - Meeting Rooms Required",
       "category": "greedy",
       "topic": "meetings",
       "weight": 7,
@@ -56,7 +56,7 @@
     },
     {
       "id": "heap_priority_scheduling",
-      "name": "Heap \u2014 Priority Scheduling",
+      "name": "Heap - Priority Scheduling",
       "category": "heaps",
       "topic": "priority_queue",
       "weight": 7,
