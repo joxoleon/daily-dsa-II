@@ -4,45 +4,7 @@ import math
 import random
 from typing import Dict, List
 
-from resource_loader import FileMetadata, FileRecord, ResourceLoader
-
-###############################################
-#  WEIGHT AND CYCLE CONFIGURATIONS
-###############################################
-
-FUNDAMENTALS_WEIGHT_GROUPS = {
-    10: {"arrays", "strings", "binary_search"},
-    9:  {"dp", "trees"},
-    8:  {"graphs", "intervals", "greedy", "heaps"},
-    7:  {"backtracking", "linked_list", "stacks_and_queues"},
-    6:  {"grids"},
-    3:  {"union_find"},
-}
-FUNDAMENTALS_WEIGHTS = {c: w for w, cats in FUNDAMENTALS_WEIGHT_GROUPS.items() for c in cats}
-
-LEETCODE_WEIGHT_GROUPS = {
-    10: {"arrays", "sliding_window", "two_pointers", "binary_search"},
-    9:  {"dp", "trees", "graphs"},
-    8:  {"greedy", "intervals", "hashing", "strings"},
-    7:  {"heap", "backtracking", "stack", "linked_list"},
-    6:  {"bit_manipulation", "math"},
-    5:  {"tries", "design"},
-    4:  {"extra_20_must_know"},
-}
-LEETCODE_WEIGHTS = {c: w for w, cats in LEETCODE_WEIGHT_GROUPS.items() for c in cats}
-
-LC_MODES = {
-    # 100% easy
-    "easy_2":  {"count": 2, "difficulties": ["easy"]},
-    "easy_3":  {"count": 3, "difficulties": ["easy"]},
-    # mid all the way
-    "balanced": {"count": 2, "difficulties": ["easy", "medium"]},
-    # hard days
-    "hard": {"count": 1, "difficulties": ["hard"]},
-}
-
-# daily rotation pattern
-LC_ROTATION = ["balanced", "balanced", "easy_3", "balanced", "hard", "balanced"]
+from resource_loader import FileMetadata, FileRecord
 
 ###############################################
 #  ProblemContainer
@@ -82,8 +44,14 @@ class CategoryContainer:
         size_factor = math.log(self.size + 1)
         return (self.weight * size_factor) + self.age
 
-    def select_problem(self) -> ProblemContainer:
-        selected = max(self.problems, key=lambda p: p.get_priority())
+    def select_problem(self, used_names: set[str] | None = None) -> ProblemContainer:
+        """Select highest-priority problem, avoiding names already used in the cycle."""
+        used_names = used_names or set()
+        candidates = [p for p in self.problems if p.metadata.name not in used_names]
+        if not candidates:
+            candidates = self.problems
+
+        selected = max(candidates, key=lambda p: p.get_priority())
 
         for p in self.problems:
             if p is selected:
@@ -138,13 +106,31 @@ class CycleGenerator:
     ) -> List[ProblemContainer]:
 
         cycle: List[ProblemContainer] = []
+        used_names: set[str] = set()
 
         for _ in range(num_categories):
             category = self.select_next_category()
             for _ in range(num_problems_per_category):
-                cycle.append(category.select_problem())
+                problem = category.select_problem(used_names)
+                used_names.add(problem.metadata.name)
+                cycle.append(problem)
 
         return cycle
+
+    def generate_cycles(
+        self,
+        num_cycles: int,
+        num_problems_per_category: int,
+        num_categories: int
+    ) -> List[List[ProblemContainer]]:
+        all_cycles: List[List[ProblemContainer]] = []
+        for _ in range(num_cycles):
+            cycle = self.generate_cycle(
+                num_problems_per_category,
+                num_categories
+            )
+            all_cycles.append(cycle)
+        return all_cycles
 
 
 ###############################################
@@ -206,19 +192,17 @@ class LeetCodeCycleGenerator:
 
         return selected
 
-    def generate_cycle(self, mode: dict) -> List[ProblemContainer]:
+    def generate_cycle(self, difficulties: List[str]) -> List[ProblemContainer]:
         """
-        mode = {"count": int, "difficulties": ["easy","medium","hard"]}
+        difficulties is an ordered list like ["easy","easy","medium"].
         Ensures no duplicates in a single cycle.
         """
 
         used = set()
         result: List[ProblemContainer] = []
 
-        for _ in range(mode["count"]):
-            diff = random.choice(mode["difficulties"])
-            bucket = self.buckets[diff]
-
+        for diff in difficulties:
+            bucket = self.buckets[diff.lower()]
             p = self._select_problem_unique(bucket, used)
             used.add(p.metadata.name)
             result.append(p)
@@ -228,48 +212,16 @@ class LeetCodeCycleGenerator:
     def generate_cycles(
         self,
         num_cycles: int,
+        rotation: List[str],
+        modes: Dict[str, List[str]],
     ) -> List[List[ProblemContainer]]:
         """
         Generate multiple cycles based on the specified mode.
         """
-        modes = LC_ROTATION
         all_cycles: List[List[ProblemContainer]] = []
         for i in range(num_cycles):
-            mode_name = modes[i % len(modes)]
-            mode = LC_MODES[mode_name]
-            cycle = self.generate_cycle(mode)
+            mode_name = rotation[i % len(rotation)]
+            difficulties = modes[mode_name]
+            cycle = self.generate_cycle(difficulties)
             all_cycles.append(cycle)
         return all_cycles
-
-
-###############################################
-#  Example use (optional)
-###############################################
-if __name__ == "__main__":
-
-    from resource_loader import ResourceLoader
-
-    loader = ResourceLoader()
-
-    ###############################################
-    # Fundamentals sample cycle
-    ###############################################
-    fundamentals_gen = CycleGenerator(loader.fundamentals, FUNDAMENTALS_WEIGHTS)
-    fundamentals_cycle = fundamentals_gen.generate_cycle(
-        num_problems_per_category=2,
-        num_categories=2
-    )
-
-    ###############################################
-    # LeetCode sample cycle
-    ###############################################
-    lc_gen = LeetCodeCycleGenerator(loader.leetcode, LEETCODE_WEIGHTS)
-
-    day_index = 0
-    mode_name = LC_ROTATION[day_index % len(LC_ROTATION)]
-    lc_mode = LC_MODES[mode_name]
-
-    lc_cycle = lc_gen.generate_cycle(lc_mode)
-
-    print("Fundamentals:", [p.metadata.name for p in fundamentals_cycle])
-    print("LeetCode:", [p.metadata.name for p in lc_cycle])
