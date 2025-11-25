@@ -1,0 +1,1001 @@
+Daily Cycles Report (100 days)
+
+Day 001
+  Fundamentals:
+    - Two Pointers — Two Sum in Sorted Array | category=arrays | topic=two_pointers | weight=9
+    - Two Pointers — Palindrome Check | category=arrays | topic=two_pointers | weight=8
+    - Sliding Window — Longest Substring Without Repeating Characters | category=strings | topic=sliding_window_hash | weight=8
+    - Sliding Window — Longest Substring with K Distinct | category=strings | topic=sliding_window_k_distinct | weight=7
+  LeetCode:
+    - Two Sum | category=arrays | topic=arrays | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/two-sum/
+    - Product of Array Except Self | category=arrays | topic=arrays | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/product-of-array-except-self/
+
+Day 002
+  Fundamentals:
+    - Binary Search — Search in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=9
+    - Binary Search — Classic Index Search | category=binary_search | topic=binary_search | weight=8
+    - Monotonic Stack — Largest Rectangle in Histogram | category=stacks_and_queues | topic=monotonic_stack | weight=9
+    - Monotonic Stack — Next Greater Element | category=stacks_and_queues | topic=monotonic_stack | weight=8
+  LeetCode:
+    - Minimum Window Substring | category=sliding_window | topic=sliding_window | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/minimum-window-substring/
+
+Day 003
+  Fundamentals:
+    - Cycle Detection (Floyd's Algorithm) | category=linked_list | topic=cycle | weight=9
+    - Reverse Linked List | category=linked_list | topic=classic | weight=8
+    - Merge Overlapping Intervals | category=intervals | topic=merge_intervals | weight=9
+    - Meeting Rooms — Can Attend All | category=intervals | topic=overlap_check | weight=8
+  LeetCode:
+    - Reverse Linked List | category=linked_list | topic=linked_list | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/reverse-linked-list/
+    - 3Sum | category=two_pointers | topic=two_pointers | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/3sum/
+
+Day 004
+  Fundamentals:
+    - Tree — Lowest Common Ancestor | category=trees | topic=dfs | weight=9
+    - Tree — Check if Balanced | category=trees | topic=dfs | weight=8
+    - Dijkstra — Shortest Path | category=graphs | topic=dijkstra | weight=9
+    - Topological Sort — Kahn's Algorithm | category=graphs | topic=toposort | weight=8
+  LeetCode:
+    - Valid Parentheses | category=stack | topic=stack | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/valid-parentheses/
+    - Two Sum | category=arrays | topic=arrays | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/two-sum/
+    - Best Time to Buy and Sell Stock | category=arrays | topic=arrays | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+Day 005
+  Fundamentals:
+    - Backtracking — Combination Sum II | category=backtracking | topic=combination_sum | weight=9
+    - Backtracking — Subsets With Duplicates | category=backtracking | topic=subsets | weight=8
+    - DP — Longest Common Subsequence | category=dp | topic=2d_dp | weight=9
+    - DP — Edit Distance | category=dp | topic=2d_dp | weight=9
+  LeetCode:
+    - Container With Most Water | category=two_pointers | topic=two_pointers | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/container-with-most-water/
+    - Longest Substring Without Repeating Characters | category=sliding_window | topic=sliding_window | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+Day 006
+  Fundamentals:
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Heap — K Largest Elements | category=heaps | topic=max_heap | weight=8
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Linked List Cycle | category=linked_list | topic=linked_list | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/linked-list-cycle/
+    - Group Anagrams | category=hashing | topic=hashing | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/group-anagrams/
+
+Day 007
+  Fundamentals:
+    - Union-Find — Path Compression | category=union_find | topic=dsu_optimization | weight=9
+    - Union-Find — Basic Structure | category=union_find | topic=dsu_core | weight=8
+    - Shortest Path in a Grid | category=grids | topic=bfs | weight=8
+    - Count Connected Components in Grid | category=grids | topic=dfs | weight=7
+  LeetCode:
+    - Merge Two Sorted Lists | category=linked_list | topic=linked_list | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/merge-two-sorted-lists/
+    - Median of Two Sorted Arrays | category=binary_search | topic=binary_search | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+Day 008
+  Fundamentals:
+    - Two Pointers — Two Sum in Sorted Array | category=arrays | topic=two_pointers | weight=9
+    - Prefix Sum — Longest Binary Subarray with Equal 0s and 1s | category=arrays | topic=prefix_sum_hashmap | weight=8
+    - Sliding Window — Longest Substring Without Repeating Characters | category=strings | topic=sliding_window_hash | weight=8
+    - Check if Two Strings Are Anagrams | category=strings | topic=hashing | weight=6
+  LeetCode:
+    - Invert Binary Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/invert-binary-tree/
+    - Longest Consecutive Sequence | category=hashing | topic=hashing | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/longest-consecutive-sequence/
+
+Day 009
+  Fundamentals:
+    - Binary Search — Search in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=9
+    - Binary Search — Find Minimum in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=8
+    - Monotonic Stack — Largest Rectangle in Histogram | category=stacks_and_queues | topic=monotonic_stack | weight=9
+    - Deque — Sliding Window Maximum | category=stacks_and_queues | topic=deque | weight=8
+  LeetCode:
+    - Subtree of Another Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/subtree-of-another-tree/
+    - Search in Rotated Sorted Array | category=binary_search | topic=binary_search | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+Day 010
+  Fundamentals:
+    - Cycle Detection (Floyd's Algorithm) | category=linked_list | topic=cycle | weight=9
+    - Merge Two Sorted Linked Lists | category=linked_list | topic=merge | weight=7
+    - Merge Overlapping Intervals | category=intervals | topic=merge_intervals | weight=9
+    - Meeting Rooms II — Minimum Rooms Required | category=intervals | topic=min_rooms | weight=8
+  LeetCode:
+    - Largest Rectangle in Histogram | category=stack | topic=stack | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/largest-rectangle-in-histogram/
+
+Day 011
+  Fundamentals:
+    - Tree — Lowest Common Ancestor | category=trees | topic=dfs | weight=9
+    - Tree — Maximum Depth | category=trees | topic=dfs | weight=7
+    - Cycle Detection — Directed Graph | category=graphs | topic=cycle_detection | weight=8
+    - Dijkstra — Shortest Path | category=graphs | topic=dijkstra | weight=9
+  LeetCode:
+    - Symmetric Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/symmetric-tree/
+    - Merge Intervals | category=intervals | topic=intervals | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/merge-intervals/
+
+Day 012
+  Fundamentals:
+    - Backtracking — Combination Sum | category=backtracking | topic=combination_sum | weight=8
+    - Backtracking — Combination Sum II | category=backtracking | topic=combination_sum | weight=9
+    - DP — Coin Change (Minimum Coins) | category=dp | topic=1d_dp | weight=8
+    - DP — Longest Common Subsequence | category=dp | topic=2d_dp | weight=9
+  LeetCode:
+    - Single Number | category=bit_manipulation | topic=bit_manipulation | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/single-number/
+    - Counting Bits | category=bit_manipulation | topic=bit_manipulation | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/counting-bits/
+    - Missing Number | category=extra_20_must_know | topic=extra_20_must_know | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/missing-number/
+
+Day 013
+  Fundamentals:
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Heap — Priority Scheduling | category=heaps | topic=priority_queue | weight=7
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Add Two Numbers | category=linked_list | topic=linked_list | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/add-two-numbers/
+    - Copy List with Random Pointer | category=linked_list | topic=linked_list | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/copy-list-with-random-pointer/
+
+Day 014
+  Fundamentals:
+    - Union-Find — Path Compression | category=union_find | topic=dsu_optimization | weight=9
+    - Union-Find — Number of Islands (Grid DSU) | category=union_find | topic=grid_dsu | weight=8
+    - Shortest Path in a Grid | category=grids | topic=bfs | weight=8
+    - Word Search Backtracking | category=grids | topic=backtracking | weight=7
+  LeetCode:
+    - Merge Sorted Array | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/merge-sorted-array/
+    - Validate Binary Search Tree | category=trees | topic=trees | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/validate-binary-search-tree/
+
+Day 015
+  Fundamentals:
+    - Remove Duplicates from Sorted Array — Count Unique | category=arrays | topic=in_place | weight=7
+    - Rotate Array by K Steps | category=arrays | topic=rotation | weight=7
+    - Simple Run-Length Encoding | category=strings | topic=compression | weight=5
+    - Find the Longest Word in a Sentence | category=strings | topic=scanning | weight=4
+  LeetCode:
+    - Majority Element | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/majority-element/
+    - Merge k Sorted Lists | category=heap | topic=heap | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/merge-k-sorted-lists/
+
+Day 016
+  Fundamentals:
+    - Binary Search — Leftmost Occurrence | category=binary_search | topic=binary_search_boundaries | weight=7
+    - Binary Search — Rightmost Occurrence | category=binary_search | topic=binary_search_boundaries | weight=7
+    - Stack — Valid Parentheses | category=stacks_and_queues | topic=basic_stack | weight=7
+    - Stack — Min Stack (O(1) Min Retrieval) | category=stacks_and_queues | topic=design | weight=6
+  LeetCode:
+    - Contains Duplicate | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/contains-duplicate/
+    - Construct Binary Tree from Preorder and Inorder Traversal | category=trees | topic=trees | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+Day 017
+  Fundamentals:
+    - Remove Nth Node From End | category=linked_list | topic=two_pointers | weight=7
+    - Find Middle of Linked List | category=linked_list | topic=two_pointers | weight=6
+    - Insert Interval Into Sorted List | category=intervals | topic=insert_interval | weight=7
+    - Erase Overlapping Intervals | category=intervals | topic=erase_overlap | weight=7
+  LeetCode:
+    - Valid Palindrome II | category=two_pointers | topic=two_pointers | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-palindrome-ii/
+    - Number of Islands | category=graphs | topic=graphs | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/number-of-islands/
+
+Day 018
+  Fundamentals:
+    - Tree Traversal — Level Order BFS | category=trees | topic=bfs | weight=6
+    - Tree Traversal — Inorder | category=trees | topic=dfs | weight=5
+    - Graph BFS — Adjacency List | category=graphs | topic=bfs | weight=7
+    - Graph DFS — Adjacency List | category=graphs | topic=dfs | weight=7
+  LeetCode:
+    - Find Median from Data Stream | category=heap | topic=heap | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/find-median-from-data-stream/
+
+Day 019
+  Fundamentals:
+    - Backtracking — Generate Subsets | category=backtracking | topic=subsets | weight=7
+    - Backtracking — Permutations | category=backtracking | topic=permutations | weight=7
+    - DP — Longest Palindromic Subsequence | category=dp | topic=2d_dp | weight=8
+    - DP — House Robber | category=dp | topic=1d_dp | weight=7
+  LeetCode:
+    - Valid Anagram | category=strings | topic=strings | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-anagram/
+    - Course Schedule | category=graphs | topic=graphs | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/course-schedule/
+
+Day 020
+  Fundamentals:
+    - Heap — Last Stone Weight | category=heaps | topic=max_heap | weight=6
+    - Heap — K Largest Elements | category=heaps | topic=max_heap | weight=8
+    - Greedy — Meeting Rooms Required | category=greedy | topic=meetings | weight=7
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Valid Palindrome | category=strings | topic=strings | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-palindrome/
+    - Meeting Rooms | category=intervals | topic=intervals | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/meeting-rooms/
+    - Maximum Depth of Binary Tree | category=trees | topic=trees | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/maximum-depth-of-binary-tree/
+
+Day 021
+  Fundamentals:
+    - Union-Find — Union by Rank | category=union_find | topic=dsu_optimization | weight=7
+    - Union-Find — Cycle Detection in Undirected Graph | category=union_find | topic=cycle_detection | weight=7
+    - Multi-Source BFS on Grid | category=grids | topic=bfs | weight=6
+    - DFS on a Grid — Explore Region | category=grids | topic=dfs | weight=5
+  LeetCode:
+    - Combination Sum | category=backtracking | topic=backtracking | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/combination-sum/
+    - Coin Change | category=dp | topic=dp | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/coin-change/
+
+Day 022
+  Fundamentals:
+    - Sliding Window — Minimum Subarray Length | category=arrays | topic=sliding_window_variable | weight=7
+    - Sliding Window — Longest Ones After Flips | category=arrays | topic=sliding_window_zero_flips | weight=7
+    - Hash Map — Character Frequency Counter | category=strings | topic=hashmap_frequency | weight=3
+    - Sliding Window — Longest Substring with K Distinct | category=strings | topic=sliding_window_k_distinct | weight=7
+  LeetCode:
+    - Same Tree | category=trees | topic=trees | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/same-tree/
+    - Longest Increasing Subsequence | category=dp | topic=dp | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/longest-increasing-subsequence/
+
+Day 023
+  Fundamentals:
+    - Binary Search — Find Peak Element | category=binary_search | topic=binary_search_mountain | weight=7
+    - Binary Search — Search Insert Position | category=binary_search | topic=binary_search_insert | weight=6
+    - Queue Implemented Using Two Stacks | category=stacks_and_queues | topic=design | weight=5
+    - Monotonic Stack — Next Greater Element | category=stacks_and_queues | topic=monotonic_stack | weight=8
+  LeetCode:
+    - Climbing Stairs | category=dp | topic=dp | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/climbing-stairs/
+    - Binary Tree Maximum Path Sum | category=trees | topic=trees | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/binary-tree-maximum-path-sum/
+
+Day 024
+  Fundamentals:
+    - Reverse Linked List | category=linked_list | topic=classic | weight=8
+    - Cycle Detection (Floyd's Algorithm) | category=linked_list | topic=cycle | weight=9
+    - Minimum Arrows to Burst Balloons | category=intervals | topic=overlap_greedy | weight=6
+    - Merge Two Sorted Interval Lists | category=intervals | topic=merge_two_lists | weight=5
+  LeetCode:
+    - Remove Duplicates from Sorted Array | category=arrays | topic=arrays | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+    - Decode Ways | category=dp | topic=dp | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/decode-ways/
+
+Day 025
+  Fundamentals:
+    - Tree Traversal — Preorder | category=trees | topic=dfs | weight=5
+    - Tree Traversal — Postorder | category=trees | topic=dfs | weight=5
+    - Cycle Detection — Undirected Graph | category=graphs | topic=cycle_detection | weight=7
+    - Connected Components — DFS Count | category=graphs | topic=components | weight=7
+  LeetCode:
+    - Search Insert Position | category=arrays | topic=arrays | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/search-insert-position/
+    - Edit Distance | category=dp | topic=dp | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/edit-distance/
+
+Day 026
+  Fundamentals:
+    - Backtracking — Combinations | category=backtracking | topic=combinations | weight=6
+    - Backtracking — Subsets With Duplicates | category=backtracking | topic=subsets | weight=8
+    - DP — Longest Increasing Subsequence (O(n^2)) | category=dp | topic=1d_dp | weight=7
+    - DP — Grid Minimum Path Sum | category=dp | topic=2d_dp | weight=7
+  LeetCode:
+    - Word Ladder | category=graphs | topic=graphs | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/word-ladder/
+
+Day 027
+  Fundamentals:
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Heap — Priority Scheduling | category=heaps | topic=priority_queue | weight=7
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Longest Common Prefix | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/longest-common-prefix/
+    - Design Add and Search Words Data Structure | category=tries | topic=tries | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/add-and-search-word-data-structure-design/
+
+Day 028
+  Fundamentals:
+    - Union-Find — Count Connected Components | category=union_find | topic=components | weight=6
+    - Union-Find — Basic Structure | category=union_find | topic=dsu_core | weight=8
+    - BFS on a Grid — Explore Region | category=grids | topic=bfs | weight=5
+    - Count Connected Components in Grid | category=grids | topic=dfs | weight=7
+  LeetCode:
+    - Roman to Integer | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/roman-to-integer/
+    - Implement strStr() | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/implement-strstr/
+    - Binary Search | category=binary_search | topic=binary_search | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/binary-search/
+
+Day 029
+  Fundamentals:
+    - Prefix Sum — Subarray Sum Equals K | category=arrays | topic=prefix_sum_hashmap | weight=7
+    - Two Pointers — Reverse Array In-Place | category=arrays | topic=two_pointers | weight=6
+    - Sliding Window — Longest Substring Without Repeating Characters | category=strings | topic=sliding_window_hash | weight=8
+    - Check if Two Strings Are Anagrams | category=strings | topic=hashing | weight=6
+  LeetCode:
+    - LRU Cache | category=design | topic=design | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/lru-cache/
+    - Encode and Decode Strings | category=extra_20_must_know | topic=extra_20_must_know | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/encode-and-decode-strings/
+
+Day 030
+  Fundamentals:
+    - Binary Search — Binary Search on Answer | category=binary_search | topic=binary_search_answer_space | weight=5
+    - Binary Search — Classic Index Search | category=binary_search | topic=binary_search | weight=8
+    - Monotonic Stack — Largest Rectangle in Histogram | category=stacks_and_queues | topic=monotonic_stack | weight=9
+    - Deque — Sliding Window Maximum | category=stacks_and_queues | topic=deque | weight=8
+  LeetCode:
+    - Remove Duplicates from Sorted List | category=linked_list | topic=linked_list | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+    - Find the Duplicate Number | category=extra_20_must_know | topic=extra_20_must_know | weight=10 | difficulty=Medium | link=https://leetcode.com/problems/find-the-duplicate-number/
+
+Day 031
+  Fundamentals:
+    - Merge Two Sorted Linked Lists | category=linked_list | topic=merge | weight=7
+    - Remove Nth Node From End | category=linked_list | topic=two_pointers | weight=7
+    - Meeting Rooms — Can Attend All | category=intervals | topic=overlap_check | weight=8
+    - Merge Overlapping Intervals | category=intervals | topic=merge_intervals | weight=9
+  LeetCode:
+    - Number of 1 Bits | category=bit_manipulation | topic=bit_manipulation | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/number-of-1-bits/
+    - Regular Expression Matching | category=dp | topic=dp | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/regular-expression-matching/
+
+Day 032
+  Fundamentals:
+    - Tree — Check if Balanced | category=trees | topic=dfs | weight=8
+    - Tree — Lowest Common Ancestor | category=trees | topic=dfs | weight=9
+    - Grid DFS — Count Islands | category=graphs | topic=grid_dfs | weight=6
+    - Graph — Bipartite Check | category=graphs | topic=bipartite | weight=6
+  LeetCode:
+    - Reverse Bits | category=bit_manipulation | topic=bit_manipulation | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/reverse-bits/
+    - Maximum Subarray | category=arrays | topic=arrays | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/maximum-subarray/
+
+Day 033
+  Fundamentals:
+    - Backtracking — Combination Sum | category=backtracking | topic=combination_sum | weight=8
+    - Backtracking — Combination Sum II | category=backtracking | topic=combination_sum | weight=9
+    - DP — Count Palindromic Substrings | category=dp | topic=2d_dp | weight=7
+    - DP — Climbing Stairs | category=dp | topic=1d_dp | weight=6
+  LeetCode:
+    - Sqrt(x) | category=math | topic=math | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/sqrtx/
+    - Find Minimum in Rotated Sorted Array | category=arrays | topic=arrays | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+Day 034
+  Fundamentals:
+    - Heap — K Largest Elements | category=heaps | topic=max_heap | weight=8
+    - Heap — Last Stone Weight | category=heaps | topic=max_heap | weight=6
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Meeting Rooms Required | category=greedy | topic=meetings | weight=7
+  LeetCode:
+    - Word Search II | category=tries | topic=tries | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/word-search-ii/
+
+Day 035
+  Fundamentals:
+    - Union-Find — Path Compression | category=union_find | topic=dsu_optimization | weight=9
+    - Union-Find — Number of Islands (Grid DSU) | category=union_find | topic=grid_dsu | weight=8
+    - Shortest Path in a Grid | category=grids | topic=bfs | weight=8
+    - Word Search Backtracking | category=grids | topic=backtracking | weight=7
+  LeetCode:
+    - Assign Cookies | category=greedy | topic=greedy | weight=5 | difficulty=Easy | link=https://leetcode.com/problems/assign-cookies/
+    - Maximum Product Subarray | category=arrays | topic=arrays | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/maximum-product-subarray/
+
+Day 036
+  Fundamentals:
+    - Sliding Window — Max Sum of Fixed Window | category=arrays | topic=sliding_window_fixed | weight=6
+    - Sliding Window — Fruit into Baskets | category=arrays | topic=sliding_window_k_distinct | weight=6
+    - Simple Run-Length Encoding | category=strings | topic=compression | weight=5
+    - Find the Longest Word in a Sentence | category=strings | topic=scanning | weight=4
+  LeetCode:
+    - Plus One | category=math | topic=math | weight=5 | difficulty=Easy | link=https://leetcode.com/problems/plus-one/
+    - Reverse Linked List | category=linked_list | topic=linked_list | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/reverse-linked-list/
+    - Valid Parentheses | category=stack | topic=stack | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/valid-parentheses/
+
+Day 037
+  Fundamentals:
+    - Binary Search — Search in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=9
+    - Binary Search — Find Minimum in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=8
+    - Stack — Valid Parentheses | category=stacks_and_queues | topic=basic_stack | weight=7
+    - Stack — Min Stack (O(1) Min Retrieval) | category=stacks_and_queues | topic=design | weight=6
+  LeetCode:
+    - Sort Colors | category=two_pointers | topic=two_pointers | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/sort-colors/
+    - Longest Repeating Character Replacement | category=sliding_window | topic=sliding_window | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/longest-repeating-character-replacement/
+
+Day 038
+  Fundamentals:
+    - Reverse Linked List | category=linked_list | topic=classic | weight=8
+    - Find Middle of Linked List | category=linked_list | topic=two_pointers | weight=6
+    - Meeting Rooms II — Minimum Rooms Required | category=intervals | topic=min_rooms | weight=8
+    - Insert Interval Into Sorted List | category=intervals | topic=insert_interval | weight=7
+  LeetCode:
+    - Two Sum | category=arrays | topic=arrays | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/two-sum/
+    - Top K Frequent Elements | category=hashing | topic=hashing | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/top-k-frequent-elements/
+
+Day 039
+  Fundamentals:
+    - Tree — Maximum Depth | category=trees | topic=dfs | weight=7
+    - Tree Traversal — Level Order BFS | category=trees | topic=bfs | weight=6
+    - Topological Sort — Kahn's Algorithm | category=graphs | topic=toposort | weight=8
+    - Cycle Detection — Directed Graph | category=graphs | topic=cycle_detection | weight=8
+  LeetCode:
+    - Best Time to Buy and Sell Stock | category=arrays | topic=arrays | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    - LFU Cache | category=design | topic=design | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/lfu-cache/
+
+Day 040
+  Fundamentals:
+    - Backtracking — Generate Subsets | category=backtracking | topic=subsets | weight=7
+    - Backtracking — Permutations | category=backtracking | topic=permutations | weight=7
+    - DP — Jump Game Reachability | category=dp | topic=1d_dp | weight=6
+    - DP — Fibonacci Bottom-Up | category=dp | topic=1d_dp | weight=5
+  LeetCode:
+    - Linked List Cycle | category=linked_list | topic=linked_list | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/linked-list-cycle/
+    - Longest Palindromic Substring | category=strings | topic=strings | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/longest-palindromic-substring/
+
+Day 041
+  Fundamentals:
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Heap — K Largest Elements | category=heaps | topic=max_heap | weight=8
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Merge Two Sorted Lists | category=linked_list | topic=linked_list | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/merge-two-sorted-lists/
+    - Find Kth Largest Element in an Array | category=binary_search | topic=binary_search | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+Day 042
+  Fundamentals:
+    - Union-Find — Union by Rank | category=union_find | topic=dsu_optimization | weight=7
+    - Union-Find — Cycle Detection in Undirected Graph | category=union_find | topic=cycle_detection | weight=7
+    - Multi-Source BFS on Grid | category=grids | topic=bfs | weight=6
+    - DFS on a Grid — Explore Region | category=grids | topic=dfs | weight=5
+  LeetCode:
+    - Longest Valid Parentheses | category=extra_20_must_know | topic=extra_20_must_know | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/longest-valid-parentheses/
+
+Day 043
+  Fundamentals:
+    - Prefix Sum — Longest Subarray with Sum K | category=arrays | topic=prefix_sum_hashmap | weight=6
+    - Difference Array — Efficient Range Updates | category=arrays | topic=difference_array | weight=5
+    - Sliding Window — Longest Substring with K Distinct | category=strings | topic=sliding_window_k_distinct | weight=7
+    - Sliding Window — Longest Substring Without Repeating Characters | category=strings | topic=sliding_window_hash | weight=8
+  LeetCode:
+    - Invert Binary Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/invert-binary-tree/
+    - Insert Interval | category=intervals | topic=intervals | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/insert-interval/
+
+Day 044
+  Fundamentals:
+    - Binary Search — Leftmost Occurrence | category=binary_search | topic=binary_search_boundaries | weight=7
+    - Binary Search — Rightmost Occurrence | category=binary_search | topic=binary_search_boundaries | weight=7
+    - Monotonic Stack — Next Greater Element | category=stacks_and_queues | topic=monotonic_stack | weight=8
+    - Queue Implemented Using Two Stacks | category=stacks_and_queues | topic=design | weight=5
+  LeetCode:
+    - Subtree of Another Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/subtree-of-another-tree/
+    - Symmetric Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/symmetric-tree/
+    - Single Number | category=bit_manipulation | topic=bit_manipulation | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/single-number/
+
+Day 045
+  Fundamentals:
+    - Cycle Detection (Floyd's Algorithm) | category=linked_list | topic=cycle | weight=9
+    - Merge Two Sorted Linked Lists | category=linked_list | topic=merge | weight=7
+    - Erase Overlapping Intervals | category=intervals | topic=erase_overlap | weight=7
+    - Minimum Arrows to Burst Balloons | category=intervals | topic=overlap_greedy | weight=6
+  LeetCode:
+    - Non-overlapping Intervals | category=intervals | topic=intervals | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/non-overlapping-intervals/
+    - Meeting Rooms II | category=intervals | topic=intervals | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/meeting-rooms-ii/
+
+Day 046
+  Fundamentals:
+    - Tree Traversal — Inorder | category=trees | topic=dfs | weight=5
+    - Tree Traversal — Preorder | category=trees | topic=dfs | weight=5
+    - Dijkstra — Shortest Path | category=graphs | topic=dijkstra | weight=9
+    - Graph BFS — Adjacency List | category=graphs | topic=bfs | weight=7
+  LeetCode:
+    - Counting Bits | category=bit_manipulation | topic=bit_manipulation | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/counting-bits/
+    - Reorder List | category=linked_list | topic=linked_list | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/reorder-list/
+
+Day 047
+  Fundamentals:
+    - Backtracking — Subsets With Duplicates | category=backtracking | topic=subsets | weight=8
+    - Backtracking — Combinations | category=backtracking | topic=combinations | weight=6
+    - DP — Edit Distance | category=dp | topic=2d_dp | weight=9
+    - DP — Coin Change (Minimum Coins) | category=dp | topic=1d_dp | weight=8
+  LeetCode:
+    - Missing Number | category=extra_20_must_know | topic=extra_20_must_know | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/missing-number/
+    - Trapping Rain Water | category=extra_20_must_know | topic=extra_20_must_know | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/trapping-rain-water/
+
+Day 048
+  Fundamentals:
+    - Heap — Priority Scheduling | category=heaps | topic=priority_queue | weight=7
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Merge Sorted Array | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/merge-sorted-array/
+    - Min Stack | category=stack | topic=stack | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/min-stack/
+
+Day 049
+  Fundamentals:
+    - Union-Find — Basic Structure | category=union_find | topic=dsu_core | weight=8
+    - Union-Find — Count Connected Components | category=union_find | topic=components | weight=6
+    - BFS on a Grid — Explore Region | category=grids | topic=bfs | weight=5
+    - Count Connected Components in Grid | category=grids | topic=dfs | weight=7
+  LeetCode:
+    - Majority Element | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/majority-element/
+    - Generate Parentheses | category=stack | topic=stack | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/generate-parentheses/
+
+Day 050
+  Fundamentals:
+    - Prefix Sum — Count Subarrays with Even/Odd Sum | category=arrays | topic=prefix_sum_parity | weight=4
+    - Prefix Sum — Running Sum Array | category=arrays | topic=prefix_sum_basic | weight=3
+    - Hash Map — Character Frequency Counter | category=strings | topic=hashmap_frequency | weight=3
+    - Check if Two Strings Are Anagrams | category=strings | topic=hashing | weight=6
+  LeetCode:
+    - First Missing Positive | category=extra_20_must_know | topic=extra_20_must_know | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/first-missing-positive/
+
+Day 051
+  Fundamentals:
+    - Binary Search — Find Peak Element | category=binary_search | topic=binary_search_mountain | weight=7
+    - Binary Search — Search Insert Position | category=binary_search | topic=binary_search_insert | weight=6
+    - Monotonic Stack — Largest Rectangle in Histogram | category=stacks_and_queues | topic=monotonic_stack | weight=9
+    - Deque — Sliding Window Maximum | category=stacks_and_queues | topic=deque | weight=8
+  LeetCode:
+    - Contains Duplicate | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/contains-duplicate/
+    - Daily Temperatures | category=stack | topic=stack | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/daily-temperatures/
+
+Day 052
+  Fundamentals:
+    - Remove Nth Node From End | category=linked_list | topic=two_pointers | weight=7
+    - Reverse Linked List | category=linked_list | topic=classic | weight=8
+    - Meeting Rooms — Can Attend All | category=intervals | topic=overlap_check | weight=8
+    - Merge Two Sorted Interval Lists | category=intervals | topic=merge_two_lists | weight=5
+  LeetCode:
+    - Valid Palindrome II | category=two_pointers | topic=two_pointers | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-palindrome-ii/
+    - Valid Anagram | category=strings | topic=strings | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-anagram/
+    - Valid Palindrome | category=strings | topic=strings | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-palindrome/
+
+Day 053
+  Fundamentals:
+    - Tree Traversal — Postorder | category=trees | topic=dfs | weight=5
+    - Tree — Check if Balanced | category=trees | topic=dfs | weight=8
+    - Graph DFS — Adjacency List | category=graphs | topic=dfs | weight=7
+    - Cycle Detection — Undirected Graph | category=graphs | topic=cycle_detection | weight=7
+  LeetCode:
+    - Task Scheduler | category=heap | topic=heap | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/task-scheduler/
+    - Jump Game | category=greedy | topic=greedy | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/jump-game/
+
+Day 054
+  Fundamentals:
+    - Backtracking — Combination Sum | category=backtracking | topic=combination_sum | weight=8
+    - Backtracking — Combination Sum II | category=backtracking | topic=combination_sum | weight=9
+    - DP — Longest Common Subsequence | category=dp | topic=2d_dp | weight=9
+    - DP — Longest Palindromic Subsequence | category=dp | topic=2d_dp | weight=8
+  LeetCode:
+    - Meeting Rooms | category=intervals | topic=intervals | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/meeting-rooms/
+    - Jump Game II | category=greedy | topic=greedy | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/jump-game-ii/
+
+Day 055
+  Fundamentals:
+    - Heap — Last Stone Weight | category=heaps | topic=max_heap | weight=6
+    - Heap — K Largest Elements | category=heaps | topic=max_heap | weight=8
+    - Greedy — Meeting Rooms Required | category=greedy | topic=meetings | weight=7
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Maximum Depth of Binary Tree | category=trees | topic=trees | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    - Sudoku Solver | category=extra_20_must_know | topic=extra_20_must_know | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/sudoku-solver/
+
+Day 056
+  Fundamentals:
+    - Union-Find — Path Compression | category=union_find | topic=dsu_optimization | weight=9
+    - Union-Find — Number of Islands (Grid DSU) | category=union_find | topic=grid_dsu | weight=8
+    - Shortest Path in a Grid | category=grids | topic=bfs | weight=8
+    - Word Search Backtracking | category=grids | topic=backtracking | weight=7
+  LeetCode:
+    - Same Tree | category=trees | topic=trees | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/same-tree/
+    - Gas Station | category=greedy | topic=greedy | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/gas-station/
+
+Day 057
+  Fundamentals:
+    - Two Pointers — Palindrome Check | category=arrays | topic=two_pointers | weight=8
+    - Two Pointers — Two Sum in Sorted Array | category=arrays | topic=two_pointers | weight=9
+    - Simple Run-Length Encoding | category=strings | topic=compression | weight=5
+    - Sliding Window — Longest Substring with K Distinct | category=strings | topic=sliding_window_k_distinct | weight=7
+  LeetCode:
+    - Climbing Stairs | category=dp | topic=dp | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/climbing-stairs/
+    - Binary Tree Level Order Traversal | category=trees | topic=trees | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+Day 058
+  Fundamentals:
+    - Binary Search — Binary Search on Answer | category=binary_search | topic=binary_search_answer_space | weight=5
+    - Binary Search — Classic Index Search | category=binary_search | topic=binary_search | weight=8
+    - Stack — Valid Parentheses | category=stacks_and_queues | topic=basic_stack | weight=7
+    - Stack — Min Stack (O(1) Min Retrieval) | category=stacks_and_queues | topic=design | weight=6
+  LeetCode:
+    - Basic Calculator | category=extra_20_must_know | topic=extra_20_must_know | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/basic-calculator/
+
+Day 059
+  Fundamentals:
+    - Cycle Detection (Floyd's Algorithm) | category=linked_list | topic=cycle | weight=9
+    - Find Middle of Linked List | category=linked_list | topic=two_pointers | weight=6
+    - Merge Overlapping Intervals | category=intervals | topic=merge_intervals | weight=9
+    - Meeting Rooms II — Minimum Rooms Required | category=intervals | topic=min_rooms | weight=8
+  LeetCode:
+    - Remove Duplicates from Sorted Array | category=arrays | topic=arrays | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+    - Lowest Common Ancestor of a BST | category=trees | topic=trees | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+Day 060
+  Fundamentals:
+    - Tree — Lowest Common Ancestor | category=trees | topic=dfs | weight=9
+    - Tree — Maximum Depth | category=trees | topic=dfs | weight=7
+    - Connected Components — DFS Count | category=graphs | topic=components | weight=7
+    - Grid DFS — Count Islands | category=graphs | topic=grid_dfs | weight=6
+  LeetCode:
+    - Search Insert Position | category=arrays | topic=arrays | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/search-insert-position/
+    - Longest Common Prefix | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/longest-common-prefix/
+    - Roman to Integer | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/roman-to-integer/
+
+Day 061
+  Fundamentals:
+    - Backtracking — Generate Subsets | category=backtracking | topic=subsets | weight=7
+    - Backtracking — Permutations | category=backtracking | topic=permutations | weight=7
+    - DP — House Robber | category=dp | topic=1d_dp | weight=7
+    - DP — Longest Increasing Subsequence (O(n^2)) | category=dp | topic=1d_dp | weight=7
+  LeetCode:
+    - Clone Graph | category=graphs | topic=graphs | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/clone-graph/
+    - Course Schedule II | category=graphs | topic=graphs | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/course-schedule-ii/
+
+Day 062
+  Fundamentals:
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Heap — Priority Scheduling | category=heaps | topic=priority_queue | weight=7
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Implement strStr() | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/implement-strstr/
+    - Permutations | category=backtracking | topic=backtracking | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/permutations/
+
+Day 063
+  Fundamentals:
+    - Union-Find — Union by Rank | category=union_find | topic=dsu_optimization | weight=7
+    - Union-Find — Cycle Detection in Undirected Graph | category=union_find | topic=cycle_detection | weight=7
+    - Multi-Source BFS on Grid | category=grids | topic=bfs | weight=6
+    - DFS on a Grid — Explore Region | category=grids | topic=dfs | weight=5
+  LeetCode:
+    - Binary Search | category=binary_search | topic=binary_search | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/binary-search/
+    - Sliding Window Maximum | category=sliding_window | topic=sliding_window | weight=9 | difficulty=Hard | link=https://leetcode.com/problems/sliding-window-maximum/
+
+Day 064
+  Fundamentals:
+    - Prefix Sum — Longest Binary Subarray with Equal 0s and 1s | category=arrays | topic=prefix_sum_hashmap | weight=8
+    - Remove Duplicates from Sorted Array — Count Unique | category=arrays | topic=in_place | weight=7
+    - Find the Longest Word in a Sentence | category=strings | topic=scanning | weight=4
+    - Sliding Window — Longest Substring Without Repeating Characters | category=strings | topic=sliding_window_hash | weight=8
+  LeetCode:
+    - Remove Duplicates from Sorted List | category=linked_list | topic=linked_list | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+    - Word Search | category=backtracking | topic=backtracking | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/word-search/
+
+Day 065
+  Fundamentals:
+    - Binary Search — Search in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=9
+    - Binary Search — Find Minimum in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=8
+    - Monotonic Stack — Next Greater Element | category=stacks_and_queues | topic=monotonic_stack | weight=8
+    - Monotonic Stack — Largest Rectangle in Histogram | category=stacks_and_queues | topic=monotonic_stack | weight=9
+  LeetCode:
+    - Number of 1 Bits | category=bit_manipulation | topic=bit_manipulation | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/number-of-1-bits/
+    - Palindrome Partitioning | category=backtracking | topic=backtracking | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/palindrome-partitioning/
+
+Day 066
+  Fundamentals:
+    - Merge Two Sorted Linked Lists | category=linked_list | topic=merge | weight=7
+    - Remove Nth Node From End | category=linked_list | topic=two_pointers | weight=7
+    - Insert Interval Into Sorted List | category=intervals | topic=insert_interval | weight=7
+    - Erase Overlapping Intervals | category=intervals | topic=erase_overlap | weight=7
+  LeetCode:
+    - Longest Increasing Path in a Matrix | category=extra_20_must_know | topic=extra_20_must_know | weight=9 | difficulty=Hard | link=https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+
+Day 067
+  Fundamentals:
+    - Tree Traversal — Level Order BFS | category=trees | topic=bfs | weight=6
+    - Tree Traversal — Inorder | category=trees | topic=dfs | weight=5
+    - Graph — Bipartite Check | category=graphs | topic=bipartite | weight=6
+    - Topological Sort — Kahn's Algorithm | category=graphs | topic=toposort | weight=8
+  LeetCode:
+    - Reverse Bits | category=bit_manipulation | topic=bit_manipulation | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/reverse-bits/
+    - House Robber | category=dp | topic=dp | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/house-robber/
+
+Day 068
+  Fundamentals:
+    - Backtracking — Subsets With Duplicates | category=backtracking | topic=subsets | weight=8
+    - Backtracking — Combinations | category=backtracking | topic=combinations | weight=6
+    - DP — Grid Minimum Path Sum | category=dp | topic=2d_dp | weight=7
+    - DP — Count Palindromic Substrings | category=dp | topic=2d_dp | weight=7
+  LeetCode:
+    - Sqrt(x) | category=math | topic=math | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/sqrtx/
+    - Assign Cookies | category=greedy | topic=greedy | weight=5 | difficulty=Easy | link=https://leetcode.com/problems/assign-cookies/
+    - Plus One | category=math | topic=math | weight=5 | difficulty=Easy | link=https://leetcode.com/problems/plus-one/
+
+Day 069
+  Fundamentals:
+    - Heap — K Largest Elements | category=heaps | topic=max_heap | weight=8
+    - Heap — Last Stone Weight | category=heaps | topic=max_heap | weight=6
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Meeting Rooms Required | category=greedy | topic=meetings | weight=7
+  LeetCode:
+    - Word Break | category=dp | topic=dp | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/word-break/
+    - Implement Trie | category=tries | topic=tries | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/implement-trie-prefix-tree/
+
+Day 070
+  Fundamentals:
+    - Union-Find — Basic Structure | category=union_find | topic=dsu_core | weight=8
+    - Union-Find — Path Compression | category=union_find | topic=dsu_optimization | weight=9
+    - BFS on a Grid — Explore Region | category=grids | topic=bfs | weight=5
+    - Count Connected Components in Grid | category=grids | topic=dfs | weight=7
+  LeetCode:
+    - Reverse Linked List | category=linked_list | topic=linked_list | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/reverse-linked-list/
+    - Accounts Merge | category=extra_20_must_know | topic=extra_20_must_know | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/accounts-merge/
+
+Day 071
+  Fundamentals:
+    - Rotate Array by K Steps | category=arrays | topic=rotation | weight=7
+    - Sliding Window — Minimum Subarray Length | category=arrays | topic=sliding_window_variable | weight=7
+    - Check if Two Strings Are Anagrams | category=strings | topic=hashing | weight=6
+    - Hash Map — Character Frequency Counter | category=strings | topic=hashmap_frequency | weight=3
+  LeetCode:
+    - Valid Parentheses | category=stack | topic=stack | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/valid-parentheses/
+    - Skyline Problem | category=extra_20_must_know | topic=extra_20_must_know | weight=9 | difficulty=Hard | link=https://leetcode.com/problems/the-skyline-problem/
+
+Day 072
+  Fundamentals:
+    - Binary Search — Leftmost Occurrence | category=binary_search | topic=binary_search_boundaries | weight=7
+    - Binary Search — Rightmost Occurrence | category=binary_search | topic=binary_search_boundaries | weight=7
+    - Queue Implemented Using Two Stacks | category=stacks_and_queues | topic=design | weight=5
+    - Deque — Sliding Window Maximum | category=stacks_and_queues | topic=deque | weight=8
+  LeetCode:
+    - Two Sum | category=arrays | topic=arrays | weight=10 | difficulty=Easy | link=https://leetcode.com/problems/two-sum/
+    - Basic Calculator II | category=extra_20_must_know | topic=extra_20_must_know | weight=9 | difficulty=Medium | link=https://leetcode.com/problems/basic-calculator-ii/
+
+Day 073
+  Fundamentals:
+    - Reverse Linked List | category=linked_list | topic=classic | weight=8
+    - Cycle Detection (Floyd's Algorithm) | category=linked_list | topic=cycle | weight=9
+    - Minimum Arrows to Burst Balloons | category=intervals | topic=overlap_greedy | weight=6
+    - Meeting Rooms — Can Attend All | category=intervals | topic=overlap_check | weight=8
+  LeetCode:
+    - Best Time to Buy and Sell Stock | category=arrays | topic=arrays | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    - Rotate Array | category=arrays | topic=arrays | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/rotate-array/
+
+Day 074
+  Fundamentals:
+    - Tree Traversal — Preorder | category=trees | topic=dfs | weight=5
+    - Tree Traversal — Postorder | category=trees | topic=dfs | weight=5
+    - Cycle Detection — Directed Graph | category=graphs | topic=cycle_detection | weight=8
+    - Dijkstra — Shortest Path | category=graphs | topic=dijkstra | weight=9
+  LeetCode:
+    - Burst Balloons | category=extra_20_must_know | topic=extra_20_must_know | weight=9 | difficulty=Hard | link=https://leetcode.com/problems/burst-balloons/
+
+Day 075
+  Fundamentals:
+    - Backtracking — Combination Sum | category=backtracking | topic=combination_sum | weight=8
+    - Backtracking — Combination Sum II | category=backtracking | topic=combination_sum | weight=9
+    - DP — Climbing Stairs | category=dp | topic=1d_dp | weight=6
+    - DP — Jump Game Reachability | category=dp | topic=1d_dp | weight=6
+  LeetCode:
+    - Linked List Cycle | category=linked_list | topic=linked_list | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/linked-list-cycle/
+    - Remove Nth Node From End of List | category=two_pointers | topic=two_pointers | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+Day 076
+  Fundamentals:
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Heap — K Largest Elements | category=heaps | topic=max_heap | weight=8
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Merge Two Sorted Lists | category=linked_list | topic=linked_list | weight=9 | difficulty=Easy | link=https://leetcode.com/problems/merge-two-sorted-lists/
+    - Invert Binary Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/invert-binary-tree/
+    - Subtree of Another Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/subtree-of-another-tree/
+
+Day 077
+  Fundamentals:
+    - Union-Find — Count Connected Components | category=union_find | topic=components | weight=6
+    - Union-Find — Number of Islands (Grid DSU) | category=union_find | topic=grid_dsu | weight=8
+    - Shortest Path in a Grid | category=grids | topic=bfs | weight=8
+    - Word Search Backtracking | category=grids | topic=backtracking | weight=7
+  LeetCode:
+    - Permutation in String | category=sliding_window | topic=sliding_window | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/permutation-in-string/
+    - Valid Sudoku | category=hashing | topic=hashing | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/valid-sudoku/
+
+Day 078
+  Fundamentals:
+    - Sliding Window — Longest Ones After Flips | category=arrays | topic=sliding_window_zero_flips | weight=7
+    - Prefix Sum — Subarray Sum Equals K | category=arrays | topic=prefix_sum_hashmap | weight=7
+    - Simple Run-Length Encoding | category=strings | topic=compression | weight=5
+    - Sliding Window — Longest Substring with K Distinct | category=strings | topic=sliding_window_k_distinct | weight=7
+  LeetCode:
+    - Symmetric Tree | category=trees | topic=trees | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/symmetric-tree/
+    - Koko Eating Bananas | category=binary_search | topic=binary_search | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/koko-eating-bananas/
+
+Day 079
+  Fundamentals:
+    - Binary Search — Find Peak Element | category=binary_search | topic=binary_search_mountain | weight=7
+    - Binary Search — Search Insert Position | category=binary_search | topic=binary_search_insert | weight=6
+    - Stack — Valid Parentheses | category=stacks_and_queues | topic=basic_stack | weight=7
+    - Stack — Min Stack (O(1) Min Retrieval) | category=stacks_and_queues | topic=design | weight=6
+  LeetCode:
+    - Single Number | category=bit_manipulation | topic=bit_manipulation | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/single-number/
+    - Russian Doll Envelopes | category=extra_20_must_know | topic=extra_20_must_know | weight=9 | difficulty=Hard | link=https://leetcode.com/problems/russian-doll-envelopes/
+
+Day 080
+  Fundamentals:
+    - Find Middle of Linked List | category=linked_list | topic=two_pointers | weight=6
+    - Merge Two Sorted Linked Lists | category=linked_list | topic=merge | weight=7
+    - Merge Overlapping Intervals | category=intervals | topic=merge_intervals | weight=9
+    - Merge Two Sorted Interval Lists | category=intervals | topic=merge_two_lists | weight=5
+  LeetCode:
+    - Counting Bits | category=bit_manipulation | topic=bit_manipulation | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/counting-bits/
+    - Interval List Intersections | category=intervals | topic=intervals | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/interval-list-intersections/
+
+Day 081
+  Fundamentals:
+    - Tree — Check if Balanced | category=trees | topic=dfs | weight=8
+    - Tree — Lowest Common Ancestor | category=trees | topic=dfs | weight=9
+    - Graph BFS — Adjacency List | category=graphs | topic=bfs | weight=7
+    - Graph DFS — Adjacency List | category=graphs | topic=dfs | weight=7
+  LeetCode:
+    - Missing Number | category=extra_20_must_know | topic=extra_20_must_know | weight=8 | difficulty=Easy | link=https://leetcode.com/problems/missing-number/
+    - Evaluate Reverse Polish Notation | category=stack | topic=stack | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/evaluate-reverse-polish-notation/
+
+Day 082
+  Fundamentals:
+    - Backtracking — Generate Subsets | category=backtracking | topic=subsets | weight=7
+    - Backtracking — Permutations | category=backtracking | topic=permutations | weight=7
+    - DP — Fibonacci Bottom-Up | category=dp | topic=1d_dp | weight=5
+    - DP — Edit Distance | category=dp | topic=2d_dp | weight=9
+  LeetCode:
+    - Reconstruct Itinerary | category=extra_20_must_know | topic=extra_20_must_know | weight=9 | difficulty=Hard | link=https://leetcode.com/problems/reconstruct-itinerary/
+
+Day 083
+  Fundamentals:
+    - Heap — Priority Scheduling | category=heaps | topic=priority_queue | weight=7
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Merge Sorted Array | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/merge-sorted-array/
+    - K Closest Points to Origin | category=heap | topic=heap | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/k-closest-points-to-origin/
+
+Day 084
+  Fundamentals:
+    - Union-Find — Union by Rank | category=union_find | topic=dsu_optimization | weight=7
+    - Union-Find — Cycle Detection in Undirected Graph | category=union_find | topic=cycle_detection | weight=7
+    - Multi-Source BFS on Grid | category=grids | topic=bfs | weight=6
+    - DFS on a Grid — Explore Region | category=grids | topic=dfs | weight=5
+  LeetCode:
+    - Majority Element | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/majority-element/
+    - Contains Duplicate | category=arrays | topic=arrays | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/contains-duplicate/
+    - Valid Palindrome II | category=two_pointers | topic=two_pointers | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-palindrome-ii/
+
+Day 085
+  Fundamentals:
+    - Two Pointers — Reverse Array In-Place | category=arrays | topic=two_pointers | weight=6
+    - Sliding Window — Max Sum of Fixed Window | category=arrays | topic=sliding_window_fixed | weight=6
+    - Sliding Window — Longest Substring Without Repeating Characters | category=strings | topic=sliding_window_hash | weight=8
+    - Find the Longest Word in a Sentence | category=strings | topic=scanning | weight=4
+  LeetCode:
+    - Populating Next Right Pointers in Each Node | category=trees | topic=trees | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+    - Pacific Atlantic Water Flow | category=graphs | topic=graphs | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/pacific-atlantic-water-flow/
+
+Day 086
+  Fundamentals:
+    - Binary Search — Binary Search on Answer | category=binary_search | topic=binary_search_answer_space | weight=5
+    - Binary Search — Classic Index Search | category=binary_search | topic=binary_search | weight=8
+    - Monotonic Stack — Next Greater Element | category=stacks_and_queues | topic=monotonic_stack | weight=8
+    - Monotonic Stack — Largest Rectangle in Histogram | category=stacks_and_queues | topic=monotonic_stack | weight=9
+  LeetCode:
+    - Valid Anagram | category=strings | topic=strings | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-anagram/
+    - Graph Valid Tree | category=graphs | topic=graphs | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/graph-valid-tree/
+
+Day 087
+  Fundamentals:
+    - Remove Nth Node From End | category=linked_list | topic=two_pointers | weight=7
+    - Reverse Linked List | category=linked_list | topic=classic | weight=8
+    - Meeting Rooms II — Minimum Rooms Required | category=intervals | topic=min_rooms | weight=8
+    - Insert Interval Into Sorted List | category=intervals | topic=insert_interval | weight=7
+  LeetCode:
+    - Valid Palindrome | category=strings | topic=strings | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/valid-palindrome/
+    - Max Points on a Line | category=extra_20_must_know | topic=extra_20_must_know | weight=8 | difficulty=Hard | link=https://leetcode.com/problems/max-points-on-a-line/
+
+Day 088
+  Fundamentals:
+    - Tree — Maximum Depth | category=trees | topic=dfs | weight=7
+    - Tree Traversal — Level Order BFS | category=trees | topic=bfs | weight=6
+    - Cycle Detection — Undirected Graph | category=graphs | topic=cycle_detection | weight=7
+    - Connected Components — DFS Count | category=graphs | topic=components | weight=7
+  LeetCode:
+    - Meeting Rooms | category=intervals | topic=intervals | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/meeting-rooms/
+    - Letter Combinations of a Phone Number | category=backtracking | topic=backtracking | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+Day 089
+  Fundamentals:
+    - Backtracking — Subsets With Duplicates | category=backtracking | topic=subsets | weight=8
+    - Backtracking — Combinations | category=backtracking | topic=combinations | weight=6
+    - DP — Coin Change (Minimum Coins) | category=dp | topic=1d_dp | weight=8
+    - DP — Longest Common Subsequence | category=dp | topic=2d_dp | weight=9
+  LeetCode:
+    - Maximum Depth of Binary Tree | category=trees | topic=trees | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    - Subsets | category=backtracking | topic=backtracking | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/subsets/
+
+Day 090
+  Fundamentals:
+    - Heap — Last Stone Weight | category=heaps | topic=max_heap | weight=6
+    - Heap — K Largest Elements | category=heaps | topic=max_heap | weight=8
+    - Greedy — Meeting Rooms Required | category=greedy | topic=meetings | weight=7
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Minimum Window Substring | category=sliding_window | topic=sliding_window | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/minimum-window-substring/
+
+Day 091
+  Fundamentals:
+    - Union-Find — Basic Structure | category=union_find | topic=dsu_core | weight=8
+    - Union-Find — Path Compression | category=union_find | topic=dsu_optimization | weight=9
+    - BFS on a Grid — Explore Region | category=grids | topic=bfs | weight=5
+    - Count Connected Components in Grid | category=grids | topic=dfs | weight=7
+  LeetCode:
+    - Same Tree | category=trees | topic=trees | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/same-tree/
+    - Subsets II | category=backtracking | topic=backtracking | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/subsets-ii/
+
+Day 092
+  Fundamentals:
+    - Sliding Window — Fruit into Baskets | category=arrays | topic=sliding_window_k_distinct | weight=6
+    - Prefix Sum — Longest Subarray with Sum K | category=arrays | topic=prefix_sum_hashmap | weight=6
+    - Check if Two Strings Are Anagrams | category=strings | topic=hashing | weight=6
+    - Simple Run-Length Encoding | category=strings | topic=compression | weight=5
+  LeetCode:
+    - Climbing Stairs | category=dp | topic=dp | weight=7 | difficulty=Easy | link=https://leetcode.com/problems/climbing-stairs/
+    - Remove Duplicates from Sorted Array | category=arrays | topic=arrays | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+    - Search Insert Position | category=arrays | topic=arrays | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/search-insert-position/
+
+Day 093
+  Fundamentals:
+    - Binary Search — Search in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=9
+    - Binary Search — Find Minimum in Rotated Sorted Array | category=binary_search | topic=binary_search_rotated | weight=8
+    - Deque — Sliding Window Maximum | category=stacks_and_queues | topic=deque | weight=8
+    - Queue Implemented Using Two Stacks | category=stacks_and_queues | topic=design | weight=5
+  LeetCode:
+    - House Robber II | category=dp | topic=dp | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/house-robber-ii/
+    - Partition Equal Subset Sum | category=dp | topic=dp | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/partition-equal-subset-sum/
+
+Day 094
+  Fundamentals:
+    - Cycle Detection (Floyd's Algorithm) | category=linked_list | topic=cycle | weight=9
+    - Find Middle of Linked List | category=linked_list | topic=two_pointers | weight=6
+    - Erase Overlapping Intervals | category=intervals | topic=erase_overlap | weight=7
+    - Minimum Arrows to Burst Balloons | category=intervals | topic=overlap_greedy | weight=6
+  LeetCode:
+    - Longest Common Prefix | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/longest-common-prefix/
+    - Pow(x, n) | category=math | topic=math | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/powx-n/
+
+Day 095
+  Fundamentals:
+    - Tree Traversal — Inorder | category=trees | topic=dfs | weight=5
+    - Tree Traversal — Preorder | category=trees | topic=dfs | weight=5
+    - Grid DFS — Count Islands | category=graphs | topic=grid_dfs | weight=6
+    - Graph — Bipartite Check | category=graphs | topic=bipartite | weight=6
+  LeetCode:
+    - Roman to Integer | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/roman-to-integer/
+    - Median of Two Sorted Arrays | category=binary_search | topic=binary_search | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+Day 096
+  Fundamentals:
+    - Backtracking — Combination Sum | category=backtracking | topic=combination_sum | weight=8
+    - Backtracking — Combination Sum II | category=backtracking | topic=combination_sum | weight=9
+    - DP — Longest Palindromic Subsequence | category=dp | topic=2d_dp | weight=8
+    - DP — House Robber | category=dp | topic=1d_dp | weight=7
+  LeetCode:
+    - Implement strStr() | category=strings | topic=strings | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/implement-strstr/
+    - Kth Smallest Element in a BST | category=extra_20_must_know | topic=extra_20_must_know | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+Day 097
+  Fundamentals:
+    - Heap — K Smallest Elements | category=heaps | topic=min_heap | weight=8
+    - Heap — Priority Scheduling | category=heaps | topic=priority_queue | weight=7
+    - Greedy — Non-Overlapping Intervals | category=greedy | topic=intervals | weight=9
+    - Greedy — Merge Intervals | category=greedy | topic=intervals | weight=9
+  LeetCode:
+    - Binary Search | category=binary_search | topic=binary_search | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/binary-search/
+    - Find All Anagrams in a String | category=extra_20_must_know | topic=extra_20_must_know | weight=8 | difficulty=Medium | link=https://leetcode.com/problems/find-all-anagrams-in-a-string/
+
+Day 098
+  Fundamentals:
+    - Union-Find — Count Connected Components | category=union_find | topic=components | weight=6
+    - Union-Find — Number of Islands (Grid DSU) | category=union_find | topic=grid_dsu | weight=8
+    - Shortest Path in a Grid | category=grids | topic=bfs | weight=8
+    - Word Search Backtracking | category=grids | topic=backtracking | weight=7
+  LeetCode:
+    - Largest Rectangle in Histogram | category=stack | topic=stack | weight=10 | difficulty=Hard | link=https://leetcode.com/problems/largest-rectangle-in-histogram/
+
+Day 099
+  Fundamentals:
+    - Difference Array — Efficient Range Updates | category=arrays | topic=difference_array | weight=5
+    - Prefix Sum — Count Subarrays with Even/Odd Sum | category=arrays | topic=prefix_sum_parity | weight=4
+    - Hash Map — Character Frequency Counter | category=strings | topic=hashmap_frequency | weight=3
+    - Sliding Window — Longest Substring with K Distinct | category=strings | topic=sliding_window_k_distinct | weight=7
+  LeetCode:
+    - Remove Duplicates from Sorted List | category=linked_list | topic=linked_list | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+    - Find Peak Element | category=binary_search | topic=binary_search | weight=7 | difficulty=Medium | link=https://leetcode.com/problems/find-peak-element/
+
+Day 100
+  Fundamentals:
+    - Binary Search — Leftmost Occurrence | category=binary_search | topic=binary_search_boundaries | weight=7
+    - Binary Search — Rightmost Occurrence | category=binary_search | topic=binary_search_boundaries | weight=7
+    - Stack — Valid Parentheses | category=stacks_and_queues | topic=basic_stack | weight=7
+    - Stack — Min Stack (O(1) Min Retrieval) | category=stacks_and_queues | topic=design | weight=6
+  LeetCode:
+    - Number of 1 Bits | category=bit_manipulation | topic=bit_manipulation | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/number-of-1-bits/
+    - Reverse Bits | category=bit_manipulation | topic=bit_manipulation | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/reverse-bits/
+    - Sqrt(x) | category=math | topic=math | weight=6 | difficulty=Easy | link=https://leetcode.com/problems/sqrtx/

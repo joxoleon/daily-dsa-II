@@ -88,6 +88,50 @@ def summarize_fundamentals(cycles: List[List]) -> str:
     unique = len({p.metadata.name for p in flat})
     return f"Fundamentals problems -> total: {total}, unique: {unique}"
 
+def format_problem_line(problem) -> str:
+    meta = problem.metadata
+    parts = [
+        meta.name,
+        f"category={meta.category}",
+        f"topic={meta.topic}",
+        f"weight={meta.weight}",
+    ]
+    if meta.difficulty:
+        parts.append(f"difficulty={meta.difficulty}")
+    if meta.link:
+        parts.append(f"link={meta.link}")
+    return " | ".join(parts)
+
+def write_report(
+    root: Path,
+    fundamentals_cycles: List[List],
+    leetcode_cycles: List[List],
+) -> None:
+    lines: List[str] = []
+    lines.append(f"Daily Cycles Report ({len(fundamentals_cycles)} days)")
+    lines.append("")
+
+    num_days = max(len(fundamentals_cycles), len(leetcode_cycles))
+    for idx in range(num_days):
+        lines.append(f"Day {idx + 1:03d}")
+        lines.append("  Fundamentals:")
+        if idx < len(fundamentals_cycles):
+            for p in fundamentals_cycles[idx]:
+                lines.append(f"    - {format_problem_line(p)}")
+        else:
+            lines.append("    - None")
+
+        lines.append("  LeetCode:")
+        if idx < len(leetcode_cycles):
+            for p in leetcode_cycles[idx]:
+                lines.append(f"    - {format_problem_line(p)}")
+        else:
+            lines.append("    - None")
+        lines.append("")
+
+    report_path = root / "daily_cycles_report.txt"
+    report_path.write_text("\n".join(lines), encoding="utf-8")
+
 def compute_not_included(all_records, cycles: List[List]) -> List:
     """Return records that never appeared in any cycle."""
     used_names = {p.metadata.name for p in flatten(cycles)}
@@ -147,6 +191,7 @@ def main() -> None:
     missing_fundamentals = compute_not_included(loader.fundamentals, fundamentals_cycles)
     missing_leetcode = compute_not_included(loader.leetcode, leetcode_cycles)
     write_not_included(OUTPUT_ROOT, missing_fundamentals, missing_leetcode)
+    write_report(OUTPUT_ROOT, fundamentals_cycles, leetcode_cycles)
 
     print(f"Wrote {NUM_DAYS} days to: {OUTPUT_ROOT}")
     print(summarize_fundamentals(fundamentals_cycles))
