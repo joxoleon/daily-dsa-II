@@ -1,0 +1,222 @@
+[
+  {
+    "fundamentals": [
+      "fundamentals/00_arrays_and_strings/00_two_pointers_palindrome.py",
+      "fundamentals/01_sliding_window/00_sw_fixed_size_max_sum.py",
+      "fundamentals/10_dp/00_dp_fibonacci_bottom_up.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/00_two-sum.py",
+      "leetcode/dp/00_climbing-stairs.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/00_arrays_and_strings/01_two_pointers_reverse_array.py",
+      "fundamentals/01_sliding_window/01_sw_min_subarray_len.py",
+      "fundamentals/07_trees/00_tree_inorder_traversal.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/01_best-time-to-buy-and-sell-stock.py",
+      "leetcode/trees/00_maximum-depth-of-binary-tree.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/00_arrays_and_strings/02_two_pointers_sorted_two_sum.py",
+      "fundamentals/01_sliding_window/02_sw_longest_no_repeat.py",
+      "fundamentals/03_binary_search/00_bs_classic.py"
+    ],
+    "leetcode": [
+      "leetcode/sliding_window/00_longest-substring-without-repeating-characters.py",
+      "leetcode/binary_search/00_binary-search.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/00_arrays_and_strings/03_array_remove_duplicates_sorted.py",
+      "fundamentals/01_sliding_window/03_sw_longest_k_distinct.py",
+      "fundamentals/02_prefix_and_hash/00_prefix_running_sum.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/03_maximum-subarray.py",
+      "leetcode/hashing/00_group-anagrams.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/00_arrays_and_strings/04_array_rotate_k_steps.py",
+      "fundamentals/01_sliding_window/04_sw_fruit_into_baskets.py",
+      "fundamentals/02_prefix_and_hash/01_prefix_subarray_sum_k.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/04_merge-sorted-array.py",
+      "leetcode/sliding_window/03_longest-repeating-character-replacement.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/00_arrays_and_strings/05_string_anagram_check.py",
+      "fundamentals/01_sliding_window/05_sw_longest_ones_with_flips.py",
+      "fundamentals/02_prefix_and_hash/02_prefix_longest_subarray_k.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/05_remove-duplicates-from-sorted-array.py",
+      "leetcode/trees/01_validate-binary-search-tree.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/00_arrays_and_strings/06_string_compress_run_length.py",
+      "fundamentals/02_prefix_and_hash/03_prefix_even_odd_counts.py",
+      "fundamentals/03_binary_search/01_bs_leftmost.py"
+    ],
+    "leetcode": [
+      "leetcode/strings/01_valid-palindrome.py",
+      "leetcode/binary_search/01_search-in-rotated-sorted-array.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/00_arrays_and_strings/07_string_longest_word.py",
+      "fundamentals/02_prefix_and_hash/04_prefix_binary_subarray_equal_0_1.py",
+      "fundamentals/03_binary_search/02_bs_rightmost.py"
+    ],
+    "leetcode": [
+      "leetcode/strings/00_valid-anagram.py",
+      "leetcode/hashing/03_longest-consecutive-sequence.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/01_sliding_window/00_sw_fixed_size_max_sum.py",
+      "fundamentals/02_prefix_and_hash/05_prefix_difference_array_update.py",
+      "fundamentals/03_binary_search/03_bs_rotated_search.py"
+    ],
+    "leetcode": [
+      "leetcode/sliding_window/01_minimum-window-substring.py",
+      "leetcode/binary_search/04_koko-eating-bananas.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/01_sliding_window/01_sw_min_subarray_len.py",
+      "fundamentals/02_prefix_and_hash/06_hashmap_frequency_basic.py",
+      "fundamentals/03_binary_search/04_bs_find_min_rotated.py"
+    ],
+    "leetcode": [
+      "leetcode/hashing/02_top-k-frequent-elements.py",
+      "leetcode/trees/06_lowest-common-ancestor-of-a-binary-search-tree.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/01_sliding_window/02_sw_longest_no_repeat.py",
+      "fundamentals/03_binary_search/05_bs_search_insert.py",
+      "fundamentals/07_trees/01_tree_preorder_traversal.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/06_search-insert-position.py",
+      "leetcode/trees/02_invert-binary-tree.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/01_sliding_window/03_sw_longest_k_distinct.py",
+      "fundamentals/03_binary_search/06_bs_peak_element.py",
+      "fundamentals/07_trees/02_tree_postorder_traversal.py"
+    ],
+    "leetcode": [
+      "leetcode/sliding_window/02_permutation-in-string.py",
+      "leetcode/binary_search/02_find-peak-element.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/01_sliding_window/04_sw_fruit_into_baskets.py",
+      "fundamentals/03_binary_search/07_bs_binary_search_answer.py",
+      "fundamentals/07_trees/03_tree_level_order.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/08_rotate-array.py",
+      "leetcode/trees/03_binary-tree-level-order-traversal.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/01_sliding_window/05_sw_longest_ones_with_flips.py",
+      "fundamentals/04_stacks_and_queues/00_stack_valid_parentheses.py",
+      "fundamentals/07_trees/04_tree_max_depth.py"
+    ],
+    "leetcode": [
+      "leetcode/stack/00_valid-parentheses.py",
+      "leetcode/trees/04_same-tree.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/02_prefix_and_hash/00_prefix_running_sum.py",
+      "fundamentals/04_stacks_and_queues/01_stack_min_stack.py",
+      "fundamentals/07_trees/05_tree_balanced.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/07_majority-element.py",
+      "leetcode/stack/01_min-stack.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/02_prefix_and_hash/01_prefix_subarray_sum_k.py",
+      "fundamentals/04_stacks_and_queues/02_stack_monotonic_next_greater.py",
+      "fundamentals/07_trees/06_tree_lca.py"
+    ],
+    "leetcode": [
+      "leetcode/sliding_window/04_sliding-window-maximum.py",
+      "leetcode/trees/06_lowest-common-ancestor-of-a-binary-search-tree.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/02_prefix_and_hash/02_prefix_longest_subarray_k.py",
+      "fundamentals/04_stacks_and_queues/03_stack_monotonic_histogram.py",
+      "fundamentals/10_dp/01_dp_climbing_stairs.py"
+    ],
+    "leetcode": [
+      "leetcode/stack/04_largest-rectangle-in-histogram.py",
+      "leetcode/dp/01_house-robber.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/02_prefix_and_hash/03_prefix_even_odd_counts.py",
+      "fundamentals/04_stacks_and_queues/04_queue_two_stacks.py",
+      "fundamentals/10_dp/02_dp_house_robber.py"
+    ],
+    "leetcode": [
+      "leetcode/arrays/09_contains-duplicate.py",
+      "leetcode/dp/02_house-robber-ii.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/02_prefix_and_hash/04_prefix_binary_subarray_equal_0_1.py",
+      "fundamentals/04_stacks_and_queues/05_deque_sliding_window_max.py",
+      "fundamentals/10_dp/03_dp_lis_n2.py"
+    ],
+    "leetcode": [
+      "leetcode/sliding_window/01_minimum-window-substring.py",
+      "leetcode/dp/03_coin-change.py"
+    ]
+  },
+  {
+    "fundamentals": [
+      "fundamentals/02_prefix_and_hash/05_prefix_difference_array_update.py",
+      "fundamentals/05_linked_list/00_linkedlist_reverse.py",
+      "fundamentals/10_dp/04_dp_jump_game.py"
+    ],
+    "leetcode": [
+      "leetcode/linked_list/00_reverse-linked-list.py",
+      "leetcode/greedy/00_jump-game.py"
+    ]
+  }
+]
