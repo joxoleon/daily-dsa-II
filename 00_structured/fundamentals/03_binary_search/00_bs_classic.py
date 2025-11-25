@@ -1,4 +1,4 @@
-# [ Name: Binary Search — Classic Index Search ]  [ Category: arrays ]  [ Topic: binary_search ]  [ Weight: 8 ]
+# [ Name: Binary Search — Classic Index Search ]  [ Category: binary_search ]  [ Topic: binary_search ]  [ Weight: 8 ]
 
 """
 Problem Description:

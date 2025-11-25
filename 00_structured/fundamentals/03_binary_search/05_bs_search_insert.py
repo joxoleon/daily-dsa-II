@@ -1,4 +1,4 @@
-# [ Name: Binary Search — Search Insert Position ]  [ Category: arrays ]  [ Topic: binary_search_insert ]  [ Weight: 6 ]
+# [ Name: Binary Search — Search Insert Position ]  [ Category: binary_search ]  [ Topic: binary_search_insert ]  [ Weight: 6 ]
 
 """
 Problem Description:

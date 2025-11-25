@@ -1,4 +1,4 @@
-# [ Name: Binary Search — Search in Rotated Sorted Array ]  [ Category: arrays ]  [ Topic: binary_search_rotated ]  [ Weight: 9 ]
+# [ Name: Binary Search — Search in Rotated Sorted Array ]  [ Category: binary_search ]  [ Topic: binary_search_rotated ]  [ Weight: 9 ]
 
 """
 Problem Description:

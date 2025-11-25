@@ -1,4 +1,4 @@
-# [ Name: Binary Search — Binary Search on Answer ]  [ Category: advanced ]  [ Topic: binary_search_answer_space ]  [ Weight: 5 ]
+# [ Name: Binary Search — Binary Search on Answer ]  [ Category: binary_search ]  [ Topic: binary_search_answer_space ]  [ Weight: 5 ]
 
 """
 Problem Description:

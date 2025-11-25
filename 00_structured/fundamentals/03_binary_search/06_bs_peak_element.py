@@ -1,4 +1,4 @@
-# [ Name: Binary Search — Find Peak Element ]  [ Category: arrays ]  [ Topic: binary_search_mountain ]  [ Weight: 7 ]
+# [ Name: Binary Search — Find Peak Element ]  [ Category: binary_search ]  [ Topic: binary_search_mountain ]  [ Weight: 7 ]
 
 """
 Problem Description:

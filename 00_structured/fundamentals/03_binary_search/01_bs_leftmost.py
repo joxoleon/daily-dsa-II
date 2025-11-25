@@ -1,4 +1,4 @@
-# [ Name: Binary Search — Leftmost Occurrence ]  [ Category: arrays ]  [ Topic: binary_search_boundaries ]  [ Weight: 7 ]
+# [ Name: Binary Search — Leftmost Occurrence ]  [ Category: binary_search ]  [ Topic: binary_search_boundaries ]  [ Weight: 7 ]
 
 """
 Problem Description:
