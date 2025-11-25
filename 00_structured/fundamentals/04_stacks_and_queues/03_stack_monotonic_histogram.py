@@ -1,4 +1,4 @@
-# [ Name: Monotonic Stack — Largest Rectangle in Histogram ]  [ Category: stacks ]  [ Topic: monotonic_stack ]  [ Weight: 9 ]
+# [ Name: Monotonic Stack — Largest Rectangle in Histogram ]  [ Category: stacks_and_queues ]  [ Topic: monotonic_stack ]  [ Weight: 9 ]
 
 """
 Problem Description:

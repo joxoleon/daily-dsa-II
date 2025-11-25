@@ -1,4 +1,4 @@
-# [ Name: Queue Implemented Using Two Stacks ]  [ Category: queues ]  [ Topic: design ]  [ Weight: 5 ]
+# [ Name: Queue Implemented Using Two Stacks ]  [ Category: stacks_and_queues ]  [ Topic: design ]  [ Weight: 5 ]
 
 """
 Problem Description:

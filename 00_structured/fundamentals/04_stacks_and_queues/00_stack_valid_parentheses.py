@@ -1,4 +1,4 @@
-# [ Name: Stack — Valid Parentheses ]  [ Category: stacks ]  [ Topic: basic_stack ]  [ Weight: 7 ]
+# [ Name: Stack — Valid Parentheses ]  [ Category: stacks_and_queues ]  [ Topic: basic_stack ]  [ Weight: 7 ]
 
 """
 Problem Description:

@@ -1,4 +1,4 @@
-# [ Name: Monotonic Stack — Next Greater Element ]  [ Category: stacks ]  [ Topic: monotonic_stack ]  [ Weight: 8 ]
+# [ Name: Monotonic Stack — Next Greater Element ]  [ Category: stacks_and_queues ]  [ Topic: monotonic_stack ]  [ Weight: 8 ]
 
 """
 Problem Description:

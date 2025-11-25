@@ -1,4 +1,4 @@
-# [ Name: Stack — Min Stack (O(1) Min Retrieval) ]  [ Category: stacks ]  [ Topic: design ]  [ Weight: 6 ]
+# [ Name: Stack — Min Stack (O(1) Min Retrieval) ]  [ Category: stacks_and_queues ]  [ Topic: design ]  [ Weight: 6 ]
 
 """
 Problem Description:

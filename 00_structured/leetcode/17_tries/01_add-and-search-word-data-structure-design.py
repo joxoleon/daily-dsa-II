@@ -1,4 +1,4 @@
-# [ Name: Design Add and Search Words Data Structure ]  [ Category: tries ]  [ Topic: tries ]  [ Weight: 10 ]  [ Difficulty: unknown ]
+# [ Name: Design Add and Search Words Data Structure ]  [ Category: tries ]  [ Topic: tries ]  [ Weight: 10 ]  [ Difficulty: Medium ]
 # [ Link: https://leetcode.com/problems/add-and-search-word-data-structure-design/ ]
 
 """

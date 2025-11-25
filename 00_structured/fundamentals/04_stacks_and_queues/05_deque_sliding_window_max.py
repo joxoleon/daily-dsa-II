@@ -1,4 +1,4 @@
-# [ Name: Deque — Sliding Window Maximum ]  [ Category: queues ]  [ Topic: deque ]  [ Weight: 8 ]
+# [ Name: Deque — Sliding Window Maximum ]  [ Category: stacks_and_queues ]  [ Topic: deque ]  [ Weight: 8 ]
 
 """
 Problem Description:

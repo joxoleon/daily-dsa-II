@@ -1,4 +1,4 @@
-# [ Name: Implement strStr() ]  [ Category: strings ]  [ Topic: strings ]  [ Weight: 6 ]  [ Difficulty: unknown ]
+# [ Name: Implement strStr() ]  [ Category: strings ]  [ Topic: strings ]  [ Weight: 6 ]  [ Difficulty: Easy ]
 # [ Link: https://leetcode.com/problems/implement-strstr/ ]
 
 """
