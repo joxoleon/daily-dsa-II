@@ -71,4 +71,6 @@ if __name__ == "__main__":
     n4.next = n1
     assert has_cycle(n1) == True
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

@@ -31,4 +31,6 @@ if __name__ == "__main__":
     assert grid_dfs([[6,6,6],[6,6,6],[6,6,6]], 0, 0, 6) == 9
     assert grid_dfs([[3,5,3,3,3],[5,5,5,5,5],[3,5,3,3,3]], 0, 0, 3) == 5
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

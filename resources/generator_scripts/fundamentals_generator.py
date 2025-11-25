@@ -118,6 +118,8 @@ if __name__ == "__main__":
     assert is_palindrome([5, 6, 5]) == True
     assert is_palindrome([1, 2, 2, 3]) == False
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")
 
 '''

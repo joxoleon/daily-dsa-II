@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert topological_sort(2, [[0,1],[1,0]]) == []
     assert topological_sort(5, [[1,0],[2,0],[3,1],[3,2],[4,3]]) in ([4,3,2,1,0], [4,3,1,2,0])
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

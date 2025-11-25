@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert erase_overlap_intervals([[1,2]]) == 0
     assert erase_overlap_intervals([[0,2],[1,3],[2,4],[3,5],[4,6]]) == 2
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

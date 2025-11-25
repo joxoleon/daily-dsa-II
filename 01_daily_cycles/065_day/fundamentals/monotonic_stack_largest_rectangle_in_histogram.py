@@ -27,4 +27,6 @@ if __name__ == "__main__":
     assert largest_rectangle([2,1,2]) == 3
     assert largest_rectangle([0,0,0,0]) == 0
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

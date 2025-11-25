@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert coin_change([2,4,6], 7) == -1
     assert coin_change([1,3,4], 6) == 2
     assert coin_change([7,14], 49) == 4
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

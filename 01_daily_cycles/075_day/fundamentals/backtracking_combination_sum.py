@@ -44,4 +44,6 @@ if __name__ == "__main__":
     ] if sum(x)==18])  # filter to valid outputs
     assert sorted([sorted(x) for x in combination_sum([2,4,8], 8)]) == sorted([sorted(x) for x in [[2,2,2,2],[4,4],[8]]])
     assert combination_sum([9], 3) == []
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

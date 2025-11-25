@@ -31,4 +31,6 @@ if __name__ == "__main__":
     assert merge([[1,10],[2,9],[3,8]]) == [[1,10]]
     assert merge([[1,4],[2,5],[5,8],[9,10]]) == [[1,8],[9,10]]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

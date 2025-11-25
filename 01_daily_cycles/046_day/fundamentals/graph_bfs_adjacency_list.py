@@ -31,4 +31,6 @@ if __name__ == "__main__":
     assert bfs({0: [1], 1: [2], 2: [0]}, 0) == [0, 1, 2]
     assert bfs({5: [6, 7], 6: [5], 7: [5]}, 5) == [5, 6, 7]
     assert bfs({0: [1, 2, 3], 1: [], 2: [], 3: []}, 0) == [0, 1, 2, 3]
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

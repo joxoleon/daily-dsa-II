@@ -26,4 +26,6 @@ if __name__ == "__main__":
     assert min_meeting_rooms([[1,2],[2,3],[3,4],[4,5],[5,6]]) == 1
     assert min_meeting_rooms([[1,10],[2,7],[3,19],[8,12],[10,20],[11,30]]) == 4
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

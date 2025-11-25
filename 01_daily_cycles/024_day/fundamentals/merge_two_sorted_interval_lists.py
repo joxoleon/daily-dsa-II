@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert merge_two_interval_lists([[1,3],[7,9]], [[4,6]]) == [[1,3],[4,6],[7,9]]
     assert merge_two_interval_lists([[1,5],[10,14]], [[2,6],[8,10],[11,13]]) == [[1,6],[8,14]]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

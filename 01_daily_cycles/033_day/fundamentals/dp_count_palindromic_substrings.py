@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert count_palindromic_substrings("noon") == 6
     assert count_palindromic_substrings("level") == 7
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

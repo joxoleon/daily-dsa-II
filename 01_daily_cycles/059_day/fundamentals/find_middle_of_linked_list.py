@@ -59,4 +59,6 @@ if __name__ == "__main__":
     l8 = make_linked([1,2,3,4,5,6,7,8])
     assert node_val(middle_node(l8)) == 5
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

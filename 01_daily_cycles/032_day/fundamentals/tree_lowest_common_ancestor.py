@@ -59,4 +59,6 @@ if __name__ == "__main__":
     # LCA of 3 and 4 is root (3)
     assert lowest_common_ancestor(root, root, n4) is root
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

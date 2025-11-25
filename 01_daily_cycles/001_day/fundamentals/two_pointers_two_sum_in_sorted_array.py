@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert two_sum_sorted([1, 1, 3, 5], 2) == True
     assert two_sum_sorted([0, 1, 2, 3, 9], 9) == True
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert min_path_sum([[1,2],[1,1]]) == 3
     assert min_path_sum([[100,1],[1,100]]) == 102
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

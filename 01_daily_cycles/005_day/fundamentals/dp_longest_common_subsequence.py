@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert lcs("abcdefg", "bdfg") == 4
     assert lcs("abcde", "fghij") == 0
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

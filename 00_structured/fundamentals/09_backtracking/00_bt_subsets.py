@@ -35,4 +35,6 @@ if __name__ == "__main__":
     ])
     assert sorted([sorted(s) for s in subsets([100, 200])]) == sorted([[], [100], [200], [100,200]])
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

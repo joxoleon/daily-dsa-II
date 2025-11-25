@@ -26,4 +26,6 @@ if __name__ == "__main__":
     assert climb_stairs(20) == 10946
     assert climb_stairs(45) == 1836311903
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

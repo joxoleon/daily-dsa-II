@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert min_subarray_len(8, [2,3,1,2,3,7]) == 1
     assert min_subarray_len(6, [1,1,1,1,1,6]) == 1
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

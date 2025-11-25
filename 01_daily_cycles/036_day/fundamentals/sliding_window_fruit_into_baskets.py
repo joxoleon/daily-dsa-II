@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert total_fruit([0,1,2,2,3,3,1,1,2]) == 5
     assert total_fruit([2,2,3,3,2,2,1,1,1,1]) == 6
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

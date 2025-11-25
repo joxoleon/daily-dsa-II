@@ -47,4 +47,6 @@ if __name__ == "__main__":
     assert level_order(build_tree([8,6,None,5,None,4])) == [[8],[6],[5],[4]]
     assert level_order(build_tree([1,None,2,3,None,None,4])) == [[1],[2],[3],[4]]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

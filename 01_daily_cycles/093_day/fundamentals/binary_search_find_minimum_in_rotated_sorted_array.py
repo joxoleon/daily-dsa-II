@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert find_min_rotated([3,4,5,6,1,2]) == 1
     assert find_min_rotated([2,1]) == 1
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

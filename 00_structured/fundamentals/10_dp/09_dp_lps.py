@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert longest_palindromic_subsequence("abacdfgdcaba") == 5
     assert longest_palindromic_subsequence("racecar") == 7
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

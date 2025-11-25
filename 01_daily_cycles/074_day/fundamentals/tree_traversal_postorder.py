@@ -52,4 +52,6 @@ if __name__ == "__main__":
     r.right.left = TreeNode(3)
     assert postorder_traversal(r) == [3,2,1]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert reverse_array([42, 13, 7, 8, 99]) == [99, 8, 7, 13, 42]
     assert reverse_array([0, 0, 0, 0]) == [0, 0, 0, 0]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

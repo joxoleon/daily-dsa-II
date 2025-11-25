@@ -68,4 +68,6 @@ if __name__ == "__main__":
     t = TreeNode(10, TreeNode(20, TreeNode(40)), TreeNode(30, TreeNode(50), TreeNode(60)))
     assert preorder_traversal(t) == [10,20,40,30,50,60]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

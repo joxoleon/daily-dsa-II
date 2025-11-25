@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert combination_sum_ii([4,4,2,1], 9) == []
     assert sorted([sorted(c) for c in combination_sum_ii([1,2,3], 6)]) == [[1,2,3]]
     assert combination_sum_ii([5,3,2,7,3,2,1], 7) == [[1,2,2,2],[1,3,3],[1,2,4],[2,5],[3,4],[7]] or combination_sum_ii([5,3,2,7,3,2,1], 7) == [[1,2,2,2],[1,3,3],[2,5],[3,4],[7]]
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

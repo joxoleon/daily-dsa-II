@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert running_sum([7, 1, 2]) == [7, 8, 10]
     assert running_sum([10, 20, 30, 40, 50]) == [10, 30, 60, 100, 150]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

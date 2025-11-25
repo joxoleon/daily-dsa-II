@@ -31,4 +31,6 @@ if __name__ == "__main__":
     assert find_peak([1, 1, 1, 2, 1]) == 3
     assert find_peak([10, 9, 8, 8, 8]) == 0
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

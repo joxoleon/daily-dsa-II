@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert longest_subarray_sum_k([-1, -1, 1, 2], 1) == 3
     assert longest_subarray_sum_k([5, -1, 2, 3, -2, 4], 7) == 4
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

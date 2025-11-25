@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert rotate([-1,-2,-3,0,1], 3) == [-3,0,1,-1,-2]
     assert rotate([5,6,7,8], 8) == [5,6,7,8]
     assert rotate([1,2], 3) == [2,1]
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

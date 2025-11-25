@@ -47,4 +47,6 @@ if __name__ == "__main__":
     s.pop()
     assert s.top() == -2
     assert s.getMin() == -2
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

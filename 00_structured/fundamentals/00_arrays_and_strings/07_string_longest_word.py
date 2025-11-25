@@ -27,4 +27,6 @@ if __name__ == "__main__":
     assert longest_word("Equal tie ties") == "Equal"
     assert longest_word("a ab abc abcd") == "abcd"
     assert longest_word("apple banana watermelon") == "watermelon"
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

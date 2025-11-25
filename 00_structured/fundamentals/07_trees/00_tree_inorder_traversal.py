@@ -48,4 +48,6 @@ if __name__ == "__main__":
     t = node(1, None, node(2, node(3)))
     assert inorder_traversal(t) == [1,3,2]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

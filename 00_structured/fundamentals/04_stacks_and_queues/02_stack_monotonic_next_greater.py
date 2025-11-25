@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert next_greater([2, 2, 2]) == [-1, -1, -1]
     assert next_greater([-1, 0, -2, 1]) == [0, 1, 1, -1]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

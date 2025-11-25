@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert sorted([sorted(s) for s in subsets_with_dup([1,2,3,3])]) == sorted([[], [1], [2], [3], [1,2], [1,3], [2,3], [3,3], [1,2,3], [1,3,3], [2,3,3], [1,2,3,3]])
     assert sorted([sorted(s) for s in subsets_with_dup([9,7,7,9])]) == sorted([[], [7], [9], [7,7], [7,9], [9,9], [7,7,9], [7,9,9], [7,7,9,9]])
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

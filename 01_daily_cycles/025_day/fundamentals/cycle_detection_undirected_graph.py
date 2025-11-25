@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert has_cycle_undirected(3, [[0, 1], [1, 2]]) == False
     assert has_cycle_undirected(7, [[0, 1], [1, 2], [2, 0], [3, 4], [5, 6]]) == True
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

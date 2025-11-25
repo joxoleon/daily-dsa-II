@@ -48,4 +48,6 @@ if __name__ == "__main__":
     assert is_balanced(build_tree([1,2,3])) == True
     assert is_balanced(build_tree([1,2,None,3])) == False
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

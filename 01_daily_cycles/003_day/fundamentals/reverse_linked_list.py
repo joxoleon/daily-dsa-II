@@ -63,4 +63,6 @@ if __name__ == "__main__":
     a = from_list([7])
     assert to_list(reverse_list(a)) == [7]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

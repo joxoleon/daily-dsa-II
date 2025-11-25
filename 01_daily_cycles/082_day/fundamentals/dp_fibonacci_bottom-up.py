@@ -27,4 +27,6 @@ if __name__ == "__main__":
     assert fib(20) == 6765
     assert fib(40) == 102334155
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

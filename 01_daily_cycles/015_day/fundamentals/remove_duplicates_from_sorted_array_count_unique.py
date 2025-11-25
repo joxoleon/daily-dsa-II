@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert count_unique([0,0,0,0,0,0]) == 1
     assert count_unique([-2, -1, -1, 0, 0, 2]) == 4
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

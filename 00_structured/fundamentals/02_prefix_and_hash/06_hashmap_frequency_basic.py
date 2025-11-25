@@ -26,4 +26,6 @@ if __name__ == "__main__":
     assert char_frequency("Z") == {'Z':1}
     assert char_frequency("mississippi") == {'m':1,'i':4,'s':4,'p':2}
     assert char_frequency("HelloWorld") == {'H':1,'e':1,'l':3,'o':2,'W':1,'r':1,'d':1}
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

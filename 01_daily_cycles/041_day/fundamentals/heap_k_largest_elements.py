@@ -27,4 +27,6 @@ if __name__ == "__main__":
     assert k_largest([10, 9, 8], 5) == [10, 9, 8]
     assert k_largest([-1, -7, -3, -4], 2) == [-1, -3]
     assert k_largest([100], 1) == [100]
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

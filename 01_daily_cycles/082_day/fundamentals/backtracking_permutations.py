@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert len(permutations([4, 5, 6, 7])) == 24
     assert [1,3,2] in permutations([1,2,3])
     assert all(len(p) == 4 for p in permutations([9,8,7,6]))
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

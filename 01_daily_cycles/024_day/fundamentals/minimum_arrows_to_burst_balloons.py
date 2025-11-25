@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert find_min_arrow_shots([[1,5],[1,5],[1,5]]) == 1
     assert find_min_arrow_shots([[1,2],[2,3],[4,5],[6,7],[8,9]]) == 4
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

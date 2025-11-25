@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert shortest_path([[0,1,0,0],[0,1,1,0],[0,0,0,0]]) == 7
     assert shortest_path([[0,0,0,1],[1,1,0,1],[0,0,0,0]]) == 6
     assert shortest_path([[1,0,0],[1,1,0],[0,0,0]]) == -1
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

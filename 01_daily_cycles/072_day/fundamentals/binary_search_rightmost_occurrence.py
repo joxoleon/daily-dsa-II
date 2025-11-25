@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert search_right([2,2,2,2,2], 2) == 4
     assert search_right([1,3,3,5,5,5,7], 5) == 5
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

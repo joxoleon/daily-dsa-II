@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert exist([["C","A","A"],["A","A","A"],["B","C","D"]], "AAB") == True
     assert exist([["A","B"],["C","D"]], "ACDB") == True
     assert exist([["A","B"],["C","D"]], "ABCD") == False
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

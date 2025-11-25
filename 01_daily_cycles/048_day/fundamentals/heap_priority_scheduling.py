@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert schedule_tasks([0, 3, 2, 3]) == [1, 3, 2, 0]
     assert schedule_tasks([10, -1, 10, 0]) == [0, 2, 3, 1]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

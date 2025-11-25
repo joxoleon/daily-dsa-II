@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert search_insert([2,4,6,8], 5) == 2
     assert search_insert([1,2,4,6,9], 10) == 5
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

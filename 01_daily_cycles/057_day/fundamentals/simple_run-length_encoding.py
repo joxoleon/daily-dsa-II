@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert rle_compress("zzzzzzzz") == "z8"
     assert rle_compress("xyxyzz") == "x1y1x1y1z2"
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

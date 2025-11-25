@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert count_components([[1,1],[1,1]]) == 1
     assert count_components([[1,0,1],[0,1,0],[1,0,1]]) == 5
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

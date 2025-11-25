@@ -25,4 +25,6 @@ if __name__ == "__main__":
     assert length_of_longest_k_distinct("abcbbcabbca", 2) == 4
     assert length_of_longest_k_distinct("aaaaa", 1) == 5
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

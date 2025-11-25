@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert can_attend_meetings([[1, 5], [6, 10], [10, 15]]) == True
     assert can_attend_meetings([[0, 10], [10, 20], [19, 30]]) == False
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

@@ -26,4 +26,6 @@ if __name__ == "__main__":
     assert insert([[1,5]], [0,0]) == [[0,0],[1,5]]
     assert insert([[1,5]], [0,3]) == [[0,5]]
     assert insert([[1,2],[3,4]], [5,6]) == [[1,2],[3,4],[5,6]]
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

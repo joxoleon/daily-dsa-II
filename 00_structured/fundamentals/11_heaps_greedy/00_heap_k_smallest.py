@@ -26,4 +26,6 @@ if __name__ == "__main__":
     assert sorted(k_smallest([8], 1)) == [8]
     assert sorted(k_smallest([10, 9, -1, 5, 2], 4)) == [-1, 2, 5, 9]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

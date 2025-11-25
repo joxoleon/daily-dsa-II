@@ -48,4 +48,6 @@ if __name__ == "__main__":
     assert max_depth(build_tree([1,2,2,3,3,None,None,4,4])) == 4
     assert max_depth(build_tree([1,2,3,4,None,None,5,None,6])) == 4
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

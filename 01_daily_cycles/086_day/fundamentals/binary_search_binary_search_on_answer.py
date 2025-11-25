@@ -32,4 +32,6 @@ if __name__ == "__main__":
     # Monotonic predicate: x < 0 (never True for x >=0)
     assert binary_search_answer(0, 5, lambda x: x < 0) == 6
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

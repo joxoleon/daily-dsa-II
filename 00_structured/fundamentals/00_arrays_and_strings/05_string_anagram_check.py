@@ -27,4 +27,6 @@ if __name__ == "__main__":
     assert is_anagram("abcde", "edcba") == True
     assert is_anagram("dormitory", "dirtyroom") == True
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

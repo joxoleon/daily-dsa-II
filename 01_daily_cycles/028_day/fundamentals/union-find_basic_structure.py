@@ -29,4 +29,6 @@ if __name__ == "__main__":
     uf3 = UnionFind(2)
     assert uf3.find(0) == 0
     assert uf3.find(1) == 1
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

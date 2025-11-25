@@ -75,4 +75,6 @@ if __name__ == "__main__":
     # Remove 3rd from end in length 3 [2,3]
     assert remove_nth_from_end(ListNode.from_list([1,2,3]), 3) == ListNode.from_list([2,3])
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

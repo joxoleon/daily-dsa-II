@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert dijkstra(6, [[0,1,1],[1,2,2],[2,3,3],[3,4,4],[4,5,5]], 0) == [0,1,3,6,10,15]
     assert dijkstra(3, [[0,1,2],[1,2,2],[0,2,1]], 1) == [2,0,2]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

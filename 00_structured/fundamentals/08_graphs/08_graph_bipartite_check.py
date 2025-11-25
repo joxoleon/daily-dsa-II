@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert is_bipartite([[1],[0,3],[3],[1,2]]) == True
     assert is_bipartite([]) == True
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

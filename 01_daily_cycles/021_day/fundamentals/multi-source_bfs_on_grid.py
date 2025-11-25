@@ -31,4 +31,6 @@ if __name__ == "__main__":
     assert multi_source_bfs([[0,0],[0,1]], [(0,1)]) == 2
     assert multi_source_bfs([[1]], [(0,0)]) == 0
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

@@ -28,4 +28,6 @@ if __name__ == "__main__":
     assert find_max_length([0]) == 0
     assert find_max_length([1,0,1,1,1,0,0]) == 6
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

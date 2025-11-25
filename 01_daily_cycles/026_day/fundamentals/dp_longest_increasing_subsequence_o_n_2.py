@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert length_of_lis([1, 3, 6, 7, 9, 4, 10, 5, 6]) == 6
     assert length_of_lis([2, 2]) == 1
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

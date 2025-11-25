@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert house_robber([4, 1, 2, 9, 1]) == 13
     assert house_robber([100, 1, 1, 100]) == 200
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

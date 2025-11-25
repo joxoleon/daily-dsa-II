@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert count_even_sum_subarrays([-2, 2, -2, 2]) == 8
     assert count_even_sum_subarrays([]) == 0
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

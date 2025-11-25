@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert can_jump([0,1]) == False
     assert can_jump([5,4,3,2,1,0,0]) == False
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

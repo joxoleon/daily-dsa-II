@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert binary_search([], 7) == -1
     assert binary_search([2,4,6,8,10,12], 8) == 3
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

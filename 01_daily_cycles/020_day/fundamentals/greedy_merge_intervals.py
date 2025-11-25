@@ -26,4 +26,6 @@ if __name__ == "__main__":
     assert merge_intervals([[5,7],[1,3],[2,4],[8,10]]) == [[1,4],[5,7],[8,10]]
     assert merge_intervals([[1,10],[2,6],[3,7],[8,9]]) == [[1,10]]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

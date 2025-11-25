@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert apply_range_updates(7, [[2,4,100],[0,3,-50]]) == [-50,-50,50,50,100,0,0]
     assert apply_range_updates(1, [[0,0,7]]) == [7]
     assert apply_range_updates(10, [[3,7,2],[2,5,-1],[0,9,1]]) == [1,1,0,2,2,2,3,3,1,1]
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

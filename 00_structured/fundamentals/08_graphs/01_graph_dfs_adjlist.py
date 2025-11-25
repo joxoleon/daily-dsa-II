@@ -33,4 +33,6 @@ if __name__ == "__main__":
     assert dfs({1: [2], 2: [1], 3: [4], 4: [3]}, 3) in ([3,4],[3])
     assert dfs({0: [1], 1: [0], 2: []}, 2) == [2]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

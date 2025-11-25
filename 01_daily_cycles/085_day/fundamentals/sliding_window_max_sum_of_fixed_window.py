@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert max_sum_fixed([1, 2, 3, 100, 2, 4], 2) == 102
     assert max_sum_fixed([5, -2, 3, -1, 2, 6, -3], 4) == 10
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

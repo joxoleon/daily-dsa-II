@@ -81,4 +81,6 @@ if __name__ == "__main__":
     merged = merge_lists(l1, l2)
     assert linked_list_to_list(merged) == [-10,-6,-5,-2,3,7]
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

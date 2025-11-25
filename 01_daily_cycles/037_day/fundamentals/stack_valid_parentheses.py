@@ -27,4 +27,6 @@ if __name__ == "__main__":
     assert is_valid_parentheses("{[]}") == True
     assert is_valid_parentheses("{[}]") == False
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

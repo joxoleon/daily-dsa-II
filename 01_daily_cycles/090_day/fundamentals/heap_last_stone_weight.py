@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert last_stone_weight([31, 26, 33, 21, 40]) == 5
     assert last_stone_weight([9, 3, 2, 10]) == 0
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

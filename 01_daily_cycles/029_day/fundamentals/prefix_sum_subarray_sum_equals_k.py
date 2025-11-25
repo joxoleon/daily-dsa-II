@@ -29,4 +29,6 @@ if __name__ == "__main__":
     assert subarray_sum([-1,-1,1], 0) == 1
     assert subarray_sum([0,0,0,0], 0) == 10
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

@@ -24,4 +24,6 @@ if __name__ == "__main__":
     assert length_of_longest_substring(" ") == 1
     assert length_of_longest_substring("abcadefg") == 6
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")

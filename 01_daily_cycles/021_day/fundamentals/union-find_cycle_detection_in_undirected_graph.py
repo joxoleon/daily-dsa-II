@@ -30,4 +30,6 @@ if __name__ == "__main__":
     assert has_cycle(3, [[0,0]]) == True
     assert has_cycle(6, [[0,1],[1,2],[2,3],[3,4],[4,5]]) == False
 
+    from resources.progress.progress_tracker import mark_solved
+    mark_solved(__file__)
     print("All tests passed.")
